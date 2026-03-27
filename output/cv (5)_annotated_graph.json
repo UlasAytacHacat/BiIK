@@ -1,0 +1,689 @@
+{
+    "entities": [
+        {
+            "id": "kelsey_stens",
+            "label": "Aday",
+            "properties": {
+                "name": "KELSEY STENS"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "python"
+            }
+        },
+        {
+            "id": "skill_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "java"
+            }
+        },
+        {
+            "id": "skill_components",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Components"
+            }
+        },
+        {
+            "id": "skill_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technology"
+            }
+        },
+        {
+            "id": "skill_ui",
+            "label": "Yetenek",
+            "properties": {
+                "name": "UI"
+            }
+        },
+        {
+            "id": "skill_technology_solutions",
+            "label": "Yetenek",
+            "properties": {
+                "name": "technology solutions"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_solutions",
+            "label": "Yetenek",
+            "properties": {
+                "name": "solutions"
+            }
+        },
+        {
+            "id": "skill_analytics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analytics"
+            }
+        },
+        {
+            "id": "skill_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learning"
+            }
+        },
+        {
+            "id": "skill_software_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software Engineer"
+            }
+        },
+        {
+            "id": "skill_education",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Education"
+            }
+        },
+        {
+            "id": "skill_evaluation",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Evaluation"
+            }
+        },
+        {
+            "id": "skill_software_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software Development"
+            }
+        },
+        {
+            "id": "skill_software_developer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software Developer"
+            }
+        },
+        {
+            "id": "skill_college",
+            "label": "Yetenek",
+            "properties": {
+                "name": "College"
+            }
+        },
+        {
+            "id": "skill_pandas",
+            "label": "Yetenek",
+            "properties": {
+                "name": "pandas"
+            }
+        },
+        {
+            "id": "skill_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data"
+            }
+        },
+        {
+            "id": "skill_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineer"
+            }
+        },
+        {
+            "id": "skill_machine_learning_algorithms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Machine Learning algorithms"
+            }
+        },
+        {
+            "id": "skill_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "machine learning"
+            }
+        },
+        {
+            "id": "skill_display",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Display"
+            }
+        },
+        {
+            "id": "skill_algorithms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Algorithms"
+            }
+        },
+        {
+            "id": "skill_numpy",
+            "label": "Yetenek",
+            "properties": {
+                "name": "numpy"
+            }
+        },
+        {
+            "id": "skill_text",
+            "label": "Yetenek",
+            "properties": {
+                "name": "TEXT"
+            }
+        },
+        {
+            "id": "skill_application",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Application"
+            }
+        },
+        {
+            "id": "skill_data_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data analyst"
+            }
+        },
+        {
+            "id": "skill_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analyst"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_programming",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming"
+            }
+        },
+        {
+            "id": "skill_excel",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Excel"
+            }
+        },
+        {
+            "id": "skill_application_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Application development"
+            }
+        },
+        {
+            "id": "skill_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Development"
+            }
+        },
+        {
+            "id": "skill_springboot",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Springboot"
+            }
+        },
+        {
+            "id": "skill_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering"
+            }
+        },
+        {
+            "id": "skill_motivated",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Motivated"
+            }
+        },
+        {
+            "id": "skill_ondevice_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Ondevice machine learning"
+            }
+        },
+        {
+            "id": "skill_models",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Models"
+            }
+        },
+        {
+            "id": "skill_software",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software"
+            }
+        },
+        {
+            "id": "skill_activities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Activities"
+            }
+        },
+        {
+            "id": "skill_hmi",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HMI"
+            }
+        },
+        {
+            "id": "skill_business",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Business"
+            }
+        },
+        {
+            "id": "skill_ux",
+            "label": "Yetenek",
+            "properties": {
+                "name": "UX"
+            }
+        },
+        {
+            "id": "skill_text_analytics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Text analytics"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_laravel",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Laravel"
+            }
+        },
+        {
+            "id": "skill_ui/ux",
+            "label": "Yetenek",
+            "properties": {
+                "name": "UI/UX"
+            }
+        },
+        {
+            "id": "skill_challenging",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Challenging"
+            }
+        },
+        {
+            "id": "skill_framework",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Framework"
+            }
+        },
+        {
+            "id": "skill_machine_learning_application",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Machine learning application"
+            }
+        },
+        {
+            "id": "skill_focused",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Focused"
+            }
+        },
+        {
+            "id": "skill_methods",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Methods"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "kelsey_stens",
+            "target": "skill_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_components",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_ui",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_technology_solutions",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_solutions",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_analytics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_software_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_education",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_evaluation",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_software_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_software_developer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_college",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_pandas",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_machine_learning_algorithms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_display",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_algorithms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_numpy",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_text",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_application",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_data_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_programming",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_excel",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_application_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_springboot",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_motivated",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_ondevice_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_models",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_software",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_activities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_hmi",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_business",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_ux",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_text_analytics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_laravel",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_ui/ux",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_challenging",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_framework",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_machine_learning_application",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_focused",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "kelsey_stens",
+            "target": "skill_methods",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

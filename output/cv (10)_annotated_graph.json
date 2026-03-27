@@ -1,0 +1,429 @@
+{
+    "entities": [
+        {
+            "id": "jaroslav_chechnik",
+            "label": "Aday",
+            "properties": {
+                "name": "Jaroslav Chechnik"
+            }
+        },
+        {
+            "id": "skill_scikit",
+            "label": "Yetenek",
+            "properties": {
+                "name": "scikit"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "python"
+            }
+        },
+        {
+            "id": "skill_scikit_learn",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Scikit learn"
+            }
+        },
+        {
+            "id": "skill_tensorflow",
+            "label": "Yetenek",
+            "properties": {
+                "name": "TensorFlow"
+            }
+        },
+        {
+            "id": "skill_deep_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Deep Learning"
+            }
+        },
+        {
+            "id": "skill_matplotlib",
+            "label": "Yetenek",
+            "properties": {
+                "name": "matplotlib"
+            }
+        },
+        {
+            "id": "skill_streamlit",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Streamlit"
+            }
+        },
+        {
+            "id": "skill_pi",
+            "label": "Yetenek",
+            "properties": {
+                "name": "PI"
+            }
+        },
+        {
+            "id": "skill_benefits",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Benefits"
+            }
+        },
+        {
+            "id": "skill_projects",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Projects"
+            }
+        },
+        {
+            "id": "skill_company",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Company"
+            }
+        },
+        {
+            "id": "skill_can",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CAN"
+            }
+        },
+        {
+            "id": "skill_solutions",
+            "label": "Yetenek",
+            "properties": {
+                "name": "solutions"
+            }
+        },
+        {
+            "id": "skill_r",
+            "label": "Yetenek",
+            "properties": {
+                "name": "R"
+            }
+        },
+        {
+            "id": "skill_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learning"
+            }
+        },
+        {
+            "id": "skill_education",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Education"
+            }
+        },
+        {
+            "id": "skill_work_experience",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work experience"
+            }
+        },
+        {
+            "id": "skill_masters",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Masters"
+            }
+        },
+        {
+            "id": "skill_pandas",
+            "label": "Yetenek",
+            "properties": {
+                "name": "pandas"
+            }
+        },
+        {
+            "id": "skill_system",
+            "label": "Yetenek",
+            "properties": {
+                "name": "System"
+            }
+        },
+        {
+            "id": "skill_ap",
+            "label": "Yetenek",
+            "properties": {
+                "name": "AP"
+            }
+        },
+        {
+            "id": "skill_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "machine learning"
+            }
+        },
+        {
+            "id": "skill_classification",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Classification"
+            }
+        },
+        {
+            "id": "skill_problems",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Problems"
+            }
+        },
+        {
+            "id": "skill_parking",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Parking"
+            }
+        },
+        {
+            "id": "skill_numpy",
+            "label": "Yetenek",
+            "properties": {
+                "name": "numpy"
+            }
+        },
+        {
+            "id": "skill_music",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Music"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_activities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Activities"
+            }
+        },
+        {
+            "id": "skill_anaconda",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Anaconda"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_smart",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Smart"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_scikit",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_scikit_learn",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_tensorflow",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_deep_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_matplotlib",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_streamlit",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_pi",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_benefits",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_projects",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_company",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_can",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_solutions",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_r",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_education",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_work_experience",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_masters",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_pandas",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_system",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_ap",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_classification",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_problems",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_parking",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_numpy",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_music",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_activities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_anaconda",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "jaroslav_chechnik",
+            "target": "skill_smart",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

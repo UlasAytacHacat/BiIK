@@ -1,0 +1,663 @@
+{
+    "entities": [
+        {
+            "id": "curriculum_vitae",
+            "label": "Aday",
+            "properties": {
+                "name": "CURRICULUM VITAE"
+            }
+        },
+        {
+            "id": "skill_gmail",
+            "label": "Yetenek",
+            "properties": {
+                "name": "GMail"
+            }
+        },
+        {
+            "id": "skill_knowledge",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Knowledge"
+            }
+        },
+        {
+            "id": "skill_correspondence",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Correspondence"
+            }
+        },
+        {
+            "id": "skill_curriculum_vitae",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Curriculum Vitae"
+            }
+        },
+        {
+            "id": "skill_ltd",
+            "label": "Yetenek",
+            "properties": {
+                "name": "LTD"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_can",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CAN"
+            }
+        },
+        {
+            "id": "skill_stream",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Stream"
+            }
+        },
+        {
+            "id": "skill_growth",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Growth"
+            }
+        },
+        {
+            "id": "skill_punctuality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Punctuality"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "skill_marital_status",
+            "label": "Yetenek",
+            "properties": {
+                "name": "marital status"
+            }
+        },
+        {
+            "id": "skill_hard_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hard work"
+            }
+        },
+        {
+            "id": "skill_talent",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Talent"
+            }
+        },
+        {
+            "id": "skill_accounting",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Accounting"
+            }
+        },
+        {
+            "id": "skill_work_experience",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work experience"
+            }
+        },
+        {
+            "id": "skill_is",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IS"
+            }
+        },
+        {
+            "id": "skill_organization",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Organization"
+            }
+        },
+        {
+            "id": "skill_word",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Word"
+            }
+        },
+        {
+            "id": "skill_well",
+            "label": "Yetenek",
+            "properties": {
+                "name": "WELL"
+            }
+        },
+        {
+            "id": "skill_religion",
+            "label": "Yetenek",
+            "properties": {
+                "name": "religion"
+            }
+        },
+        {
+            "id": "skill_qualification",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Qualification"
+            }
+        },
+        {
+            "id": "skill_hindi",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hindi"
+            }
+        },
+        {
+            "id": "skill_powerpoint",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Powerpoint"
+            }
+        },
+        {
+            "id": "skill_traveling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Traveling"
+            }
+        },
+        {
+            "id": "skill_academic",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Academic"
+            }
+        },
+        {
+            "id": "skill_duties",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Duties"
+            }
+        },
+        {
+            "id": "skill_capabilities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Capabilities"
+            }
+        },
+        {
+            "id": "skill_honesty",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Honesty"
+            }
+        },
+        {
+            "id": "skill_music",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Music"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_ms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "MS"
+            }
+        },
+        {
+            "id": "skill_gender",
+            "label": "Yetenek",
+            "properties": {
+                "name": "gender"
+            }
+        },
+        {
+            "id": "skill_excel",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Excel"
+            }
+        },
+        {
+            "id": "skill_curriculum",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Curriculum"
+            }
+        },
+        {
+            "id": "skill_finance",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Finance"
+            }
+        },
+        {
+            "id": "skill_com",
+            "label": "Yetenek",
+            "properties": {
+                "name": "COM"
+            }
+        },
+        {
+            "id": "skill_use",
+            "label": "Yetenek",
+            "properties": {
+                "name": "USE"
+            }
+        },
+        {
+            "id": "skill_credit",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Credit"
+            }
+        },
+        {
+            "id": "skill_computer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer"
+            }
+        },
+        {
+            "id": "skill_nationality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Nationality"
+            }
+        },
+        {
+            "id": "skill_english",
+            "label": "Yetenek",
+            "properties": {
+                "name": "English"
+            }
+        },
+        {
+            "id": "skill_computer_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer Skills"
+            }
+        },
+        {
+            "id": "skill_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Language"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_sales",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Sales"
+            }
+        },
+        {
+            "id": "skill_listening",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Listening"
+            }
+        },
+        {
+            "id": "skill_personal",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Personal"
+            }
+        },
+        {
+            "id": "skill_internet",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Internet"
+            }
+        },
+        {
+            "id": "skill_commerce",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Commerce"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_gmail",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_knowledge",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_correspondence",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_curriculum_vitae",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_ltd",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_can",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_stream",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_growth",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_punctuality",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_marital_status",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_hard_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_talent",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_accounting",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_work_experience",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_is",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_organization",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_word",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_well",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_religion",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_qualification",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_hindi",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_powerpoint",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_traveling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_academic",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_duties",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_capabilities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_honesty",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_music",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_ms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_gender",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_excel",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_curriculum",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_finance",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_com",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_use",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_credit",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_computer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_nationality",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_english",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_computer_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_sales",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_listening",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_personal",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_internet",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_commerce",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

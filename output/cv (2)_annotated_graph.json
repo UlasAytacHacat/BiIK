@@ -1,0 +1,572 @@
+{
+    "entities": [
+        {
+            "id": "keisuke_yamamoto",
+            "label": "Aday",
+            "properties": {
+                "name": "KEISUKE YAMAMOTO"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "python"
+            }
+        },
+        {
+            "id": "skill_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "java"
+            }
+        },
+        {
+            "id": "skill_web_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Web Development"
+            }
+        },
+        {
+            "id": "skill_docker_containers",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Docker Containers"
+            }
+        },
+        {
+            "id": "skill_mysql",
+            "label": "Yetenek",
+            "properties": {
+                "name": "MYSQL"
+            }
+        },
+        {
+            "id": "skill_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technology"
+            }
+        },
+        {
+            "id": "skill_detection",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Detection"
+            }
+        },
+        {
+            "id": "skill_python_programming",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Python Programming"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_oop",
+            "label": "Yetenek",
+            "properties": {
+                "name": "OOP"
+            }
+        },
+        {
+            "id": "skill_projects",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Projects"
+            }
+        },
+        {
+            "id": "skill_company",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Company"
+            }
+        },
+        {
+            "id": "skill_computers",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computers"
+            }
+        },
+        {
+            "id": "skill_web",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Web"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "skill_ml",
+            "label": "Yetenek",
+            "properties": {
+                "name": "ML"
+            }
+        },
+        {
+            "id": "skill_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learning"
+            }
+        },
+        {
+            "id": "skill_education",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Education"
+            }
+        },
+        {
+            "id": "skill_cybersecurity",
+            "label": "Yetenek",
+            "properties": {
+                "name": "cybersecurity"
+            }
+        },
+        {
+            "id": "skill_php",
+            "label": "Yetenek",
+            "properties": {
+                "name": "PHP"
+            }
+        },
+        {
+            "id": "skill_software_developer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software Developer"
+            }
+        },
+        {
+            "id": "skill_college",
+            "label": "Yetenek",
+            "properties": {
+                "name": "College"
+            }
+        },
+        {
+            "id": "skill_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data"
+            }
+        },
+        {
+            "id": "skill_character",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Character"
+            }
+        },
+        {
+            "id": "skill_containers",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Containers"
+            }
+        },
+        {
+            "id": "skill_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "machine learning"
+            }
+        },
+        {
+            "id": "skill_classification",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Classification"
+            }
+        },
+        {
+            "id": "skill_javascript",
+            "label": "Yetenek",
+            "properties": {
+                "name": "JavaScript"
+            }
+        },
+        {
+            "id": "skill_algorithms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Algorithms"
+            }
+        },
+        {
+            "id": "skill_docker",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Docker"
+            }
+        },
+        {
+            "id": "skill_data_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data analyst"
+            }
+        },
+        {
+            "id": "skill_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analyst"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_technologies",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technologies"
+            }
+        },
+        {
+            "id": "skill_programming",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming"
+            }
+        },
+        {
+            "id": "skill_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Development"
+            }
+        },
+        {
+            "id": "skill_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering"
+            }
+        },
+        {
+            "id": "skill_html",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HTML"
+            }
+        },
+        {
+            "id": "skill_svm",
+            "label": "Yetenek",
+            "properties": {
+                "name": "SVM"
+            }
+        },
+        {
+            "id": "skill_software",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software"
+            }
+        },
+        {
+            "id": "skill_activities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Activities"
+            }
+        },
+        {
+            "id": "skill_css",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CSS"
+            }
+        },
+        {
+            "id": "skill_professional",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Professional"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_web_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_docker_containers",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_mysql",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_detection",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_python_programming",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_oop",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_projects",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_company",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_computers",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_web",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_ml",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_education",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_cybersecurity",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_php",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_software_developer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_college",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_character",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_containers",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_classification",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_javascript",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_algorithms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_docker",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_data_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_technologies",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_programming",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_html",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_svm",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_software",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_activities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_css",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "keisuke_yamamoto",
+            "target": "skill_professional",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

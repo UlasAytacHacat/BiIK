@@ -1,0 +1,858 @@
+{
+    "entities": [
+        {
+            "id": "address_:_-_166/2_bhawapur",
+            "label": "Aday",
+            "properties": {
+                "name": "ADDRESS : - 166/2 BHAWAPUR"
+            }
+        },
+        {
+            "id": "skill_gmail",
+            "label": "Yetenek",
+            "properties": {
+                "name": "GMail"
+            }
+        },
+        {
+            "id": "skill_knowledge",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Knowledge"
+            }
+        },
+        {
+            "id": "skill_chess",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Chess"
+            }
+        },
+        {
+            "id": "skill_manufacturing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Manufacturing"
+            }
+        },
+        {
+            "id": "skill_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technology"
+            }
+        },
+        {
+            "id": "skill_mechanical_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mechanical engineering"
+            }
+        },
+        {
+            "id": "skill_ltd",
+            "label": "Yetenek",
+            "properties": {
+                "name": "LTD"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_mobile",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mobile"
+            }
+        },
+        {
+            "id": "skill_process",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Process"
+            }
+        },
+        {
+            "id": "skill_marital_status",
+            "label": "Yetenek",
+            "properties": {
+                "name": "marital status"
+            }
+        },
+        {
+            "id": "skill_agriculture",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Agriculture"
+            }
+        },
+        {
+            "id": "skill_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analysis"
+            }
+        },
+        {
+            "id": "skill_advance",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Advance"
+            }
+        },
+        {
+            "id": "skill_improvement",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Improvement"
+            }
+        },
+        {
+            "id": "skill_m",
+            "label": "Yetenek",
+            "properties": {
+                "name": "M"
+            }
+        },
+        {
+            "id": "skill_events",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Events"
+            }
+        },
+        {
+            "id": "skill_processes",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Processes"
+            }
+        },
+        {
+            "id": "skill_board",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Board"
+            }
+        },
+        {
+            "id": "skill_upgrade",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Upgrade"
+            }
+        },
+        {
+            "id": "skill_college",
+            "label": "Yetenek",
+            "properties": {
+                "name": "College"
+            }
+        },
+        {
+            "id": "skill_languages",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Languages"
+            }
+        },
+        {
+            "id": "skill_flow",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Flow"
+            }
+        },
+        {
+            "id": "skill_training",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Training"
+            }
+        },
+        {
+            "id": "skill_is",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IS"
+            }
+        },
+        {
+            "id": "skill_engineering_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering Technology"
+            }
+        },
+        {
+            "id": "skill_sports",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Sports"
+            }
+        },
+        {
+            "id": "skill_organization",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Organization"
+            }
+        },
+        {
+            "id": "skill_word",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Word"
+            }
+        },
+        {
+            "id": "skill_facts",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Facts"
+            }
+        },
+        {
+            "id": "skill_make",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Make"
+            }
+        },
+        {
+            "id": "skill_power_point",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Power Point"
+            }
+        },
+        {
+            "id": "skill_qualification",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Qualification"
+            }
+        },
+        {
+            "id": "skill_hindi",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hindi"
+            }
+        },
+        {
+            "id": "skill_cad",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CAD"
+            }
+        },
+        {
+            "id": "skill_compressed_air",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Compressed air"
+            }
+        },
+        {
+            "id": "skill_mechanics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mechanics"
+            }
+        },
+        {
+            "id": "skill_music",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Music"
+            }
+        },
+        {
+            "id": "skill_department",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Department"
+            }
+        },
+        {
+            "id": "skill_fabrication",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Fabrication"
+            }
+        },
+        {
+            "id": "skill_machining",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Machining"
+            }
+        },
+        {
+            "id": "skill_permanent",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Permanent"
+            }
+        },
+        {
+            "id": "skill_automation",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Automation"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_mechanical",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mechanical"
+            }
+        },
+        {
+            "id": "skill_gender",
+            "label": "Yetenek",
+            "properties": {
+                "name": "gender"
+            }
+        },
+        {
+            "id": "skill_strength",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Strength"
+            }
+        },
+        {
+            "id": "skill_excel",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Excel"
+            }
+        },
+        {
+            "id": "skill_com",
+            "label": "Yetenek",
+            "properties": {
+                "name": "COM"
+            }
+        },
+        {
+            "id": "skill_information",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Information"
+            }
+        },
+        {
+            "id": "skill_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering"
+            }
+        },
+        {
+            "id": "skill_power",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Power"
+            }
+        },
+        {
+            "id": "skill_level",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Level"
+            }
+        },
+        {
+            "id": "skill_computer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer"
+            }
+        },
+        {
+            "id": "skill_nationality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Nationality"
+            }
+        },
+        {
+            "id": "skill_english",
+            "label": "Yetenek",
+            "properties": {
+                "name": "English"
+            }
+        },
+        {
+            "id": "skill_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Language"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_material",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Material"
+            }
+        },
+        {
+            "id": "skill_materials",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Materials"
+            }
+        },
+        {
+            "id": "skill_listening",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Listening"
+            }
+        },
+        {
+            "id": "skill_project",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Project"
+            }
+        },
+        {
+            "id": "skill_personal",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Personal"
+            }
+        },
+        {
+            "id": "skill_internet",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Internet"
+            }
+        },
+        {
+            "id": "skill_technical",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technical"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_gmail",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_knowledge",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_chess",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_manufacturing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_mechanical_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_ltd",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_mobile",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_process",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_marital_status",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_agriculture",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_advance",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_improvement",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_m",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_events",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_processes",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_board",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_upgrade",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_college",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_languages",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_flow",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_training",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_is",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_engineering_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_sports",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_organization",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_word",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_facts",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_make",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_power_point",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_qualification",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_hindi",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_cad",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_compressed_air",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_mechanics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_music",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_department",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_fabrication",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_machining",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_permanent",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_automation",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_mechanical",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_gender",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_strength",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_excel",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_com",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_information",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_power",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_level",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_computer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_nationality",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_english",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_material",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_materials",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_listening",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_project",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_personal",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_internet",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "address_:_-_166/2_bhawapur",
+            "target": "skill_technical",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

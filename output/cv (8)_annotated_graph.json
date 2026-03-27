@@ -1,0 +1,832 @@
+{
+    "entities": [
+        {
+            "id": "coca-cola",
+            "label": "Aday",
+            "properties": {
+                "name": "Coca-COla"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "python"
+            }
+        },
+        {
+            "id": "skill_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "java"
+            }
+        },
+        {
+            "id": "skill_spark",
+            "label": "Yetenek",
+            "properties": {
+                "name": "SPARK"
+            }
+        },
+        {
+            "id": "skill_data_warehousing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "data warehousing"
+            }
+        },
+        {
+            "id": "skill_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technology"
+            }
+        },
+        {
+            "id": "skill_core_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Core Java"
+            }
+        },
+        {
+            "id": "skill_amazon",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Amazon"
+            }
+        },
+        {
+            "id": "skill_yarn",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Yarn"
+            }
+        },
+        {
+            "id": "skill_amazon_redshift",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Amazon RedShift"
+            }
+        },
+        {
+            "id": "skill_azure",
+            "label": "Yetenek",
+            "properties": {
+                "name": "AZURE"
+            }
+        },
+        {
+            "id": "skill_data_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "data science"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_microsoft",
+            "label": "Yetenek",
+            "properties": {
+                "name": "microsoft"
+            }
+        },
+        {
+            "id": "skill_hive",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hive"
+            }
+        },
+        {
+            "id": "skill_warehouse",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Warehouse"
+            }
+        },
+        {
+            "id": "skill_data_analytics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data analytics"
+            }
+        },
+        {
+            "id": "skill_process",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Process"
+            }
+        },
+        {
+            "id": "skill_search",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Search"
+            }
+        },
+        {
+            "id": "skill_cola",
+            "label": "Yetenek",
+            "properties": {
+                "name": "COLA"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "skill_analytics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analytics"
+            }
+        },
+        {
+            "id": "skill_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learning"
+            }
+        },
+        {
+            "id": "skill_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Science"
+            }
+        },
+        {
+            "id": "skill_mapreduce",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mapreduce"
+            }
+        },
+        {
+            "id": "skill_data_structures",
+            "label": "Yetenek",
+            "properties": {
+                "name": "data structures"
+            }
+        },
+        {
+            "id": "skill_big_data_analytics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Big Data analytics"
+            }
+        },
+        {
+            "id": "skill_work_experience",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work experience"
+            }
+        },
+        {
+            "id": "skill_delivery",
+            "label": "Yetenek",
+            "properties": {
+                "name": "delivery"
+            }
+        },
+        {
+            "id": "skill_redshift",
+            "label": "Yetenek",
+            "properties": {
+                "name": "RedShift"
+            }
+        },
+        {
+            "id": "skill_is",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IS"
+            }
+        },
+        {
+            "id": "skill_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data"
+            }
+        },
+        {
+            "id": "skill_cloud_infrastructure_services",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Cloud Infrastructure Services"
+            }
+        },
+        {
+            "id": "skill_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "machine learning"
+            }
+        },
+        {
+            "id": "skill_well",
+            "label": "Yetenek",
+            "properties": {
+                "name": "WELL"
+            }
+        },
+        {
+            "id": "skill_microsoft_azure",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Microsoft Azure"
+            }
+        },
+        {
+            "id": "skill_big_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Big Data"
+            }
+        },
+        {
+            "id": "skill_rdbms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "RDBMS"
+            }
+        },
+        {
+            "id": "skill_production",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Production"
+            }
+        },
+        {
+            "id": "skill_infrastructure",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Infrastructure"
+            }
+        },
+        {
+            "id": "skill_data_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data analyst"
+            }
+        },
+        {
+            "id": "skill_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analyst"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_hadoop",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HADOOP"
+            }
+        },
+        {
+            "id": "skill_cloud",
+            "label": "Yetenek",
+            "properties": {
+                "name": "cloud"
+            }
+        },
+        {
+            "id": "skill_database",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Database"
+            }
+        },
+        {
+            "id": "skill_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Development"
+            }
+        },
+        {
+            "id": "skill_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering"
+            }
+        },
+        {
+            "id": "skill_automate",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Automate"
+            }
+        },
+        {
+            "id": "skill_hdfs",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HDFS"
+            }
+        },
+        {
+            "id": "skill_infrastructure_services",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Infrastructure Services"
+            }
+        },
+        {
+            "id": "skill_cloud_infrastructure",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Cloud infrastructure"
+            }
+        },
+        {
+            "id": "skill_electronics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Electronics"
+            }
+        },
+        {
+            "id": "skill_talend",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Talend"
+            }
+        },
+        {
+            "id": "skill_dbms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "DBMS"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_robust",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Robust"
+            }
+        },
+        {
+            "id": "skill_warehousing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Warehousing"
+            }
+        },
+        {
+            "id": "skill_manager",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Manager"
+            }
+        },
+        {
+            "id": "skill_shipment",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Shipment"
+            }
+        },
+        {
+            "id": "skill_batch",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Batch"
+            }
+        },
+        {
+            "id": "skill_handling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Handling"
+            }
+        },
+        {
+            "id": "skill_services",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Services"
+            }
+        },
+        {
+            "id": "skill_informatica",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Informatica"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "coca-cola",
+            "target": "skill_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_spark",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_data_warehousing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_core_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_amazon",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_yarn",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_amazon_redshift",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_azure",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_data_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_microsoft",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_hive",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_warehouse",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_data_analytics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_process",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_search",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_cola",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_analytics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_mapreduce",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_data_structures",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_big_data_analytics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_work_experience",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_delivery",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_redshift",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_is",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_cloud_infrastructure_services",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_well",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_microsoft_azure",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_big_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_rdbms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_production",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_infrastructure",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_data_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_hadoop",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_cloud",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_database",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_automate",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_hdfs",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_infrastructure_services",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_cloud_infrastructure",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_electronics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_talend",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_dbms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_robust",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_warehousing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_manager",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_shipment",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_batch",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_handling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_services",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "coca-cola",
+            "target": "skill_informatica",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

@@ -1,0 +1,637 @@
+{
+    "entities": [
+        {
+            "id": "lehna_patrick",
+            "label": "Aday",
+            "properties": {
+                "name": "LEHNA PATRICK"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "python"
+            }
+        },
+        {
+            "id": "skill_knowledge",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Knowledge"
+            }
+        },
+        {
+            "id": "skill_data_mining",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Mining"
+            }
+        },
+        {
+            "id": "skill_detection",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Detection"
+            }
+        },
+        {
+            "id": "skill_deep_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Deep Learning"
+            }
+        },
+        {
+            "id": "skill_prediction",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Prediction"
+            }
+        },
+        {
+            "id": "skill_intelligence",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Intelligence"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_requirements_gathering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Requirements Gathering"
+            }
+        },
+        {
+            "id": "skill_process",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Process"
+            }
+        },
+        {
+            "id": "skill_research_assistant",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research assistant"
+            }
+        },
+        {
+            "id": "skill_process_improvement",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Process improvement"
+            }
+        },
+        {
+            "id": "skill_formulation",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Formulation"
+            }
+        },
+        {
+            "id": "skill_r",
+            "label": "Yetenek",
+            "properties": {
+                "name": "R"
+            }
+        },
+        {
+            "id": "skill_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learning"
+            }
+        },
+        {
+            "id": "skill_improvement",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Improvement"
+            }
+        },
+        {
+            "id": "skill_education",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Education"
+            }
+        },
+        {
+            "id": "skill_management",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Management"
+            }
+        },
+        {
+            "id": "skill_artificial_intelligence",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Artificial Intelligence"
+            }
+        },
+        {
+            "id": "skill_mining",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mining"
+            }
+        },
+        {
+            "id": "skill_m",
+            "label": "Yetenek",
+            "properties": {
+                "name": "M"
+            }
+        },
+        {
+            "id": "skill_programming_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming Language"
+            }
+        },
+        {
+            "id": "skill_is",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IS"
+            }
+        },
+        {
+            "id": "skill_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data"
+            }
+        },
+        {
+            "id": "skill_modeling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Modeling"
+            }
+        },
+        {
+            "id": "skill_nlp",
+            "label": "Yetenek",
+            "properties": {
+                "name": "NLP"
+            }
+        },
+        {
+            "id": "skill_semiconductor",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Semiconductor"
+            }
+        },
+        {
+            "id": "skill_innovation",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Innovation"
+            }
+        },
+        {
+            "id": "skill_research",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research"
+            }
+        },
+        {
+            "id": "skill_classification",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Classification"
+            }
+        },
+        {
+            "id": "skill_design",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Design"
+            }
+        },
+        {
+            "id": "skill_research_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research analyst"
+            }
+        },
+        {
+            "id": "skill_predictive_modeling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Predictive Modeling"
+            }
+        },
+        {
+            "id": "skill_requirements",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Requirements"
+            }
+        },
+        {
+            "id": "skill_insights",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Insights"
+            }
+        },
+        {
+            "id": "skill_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analyst"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_programming",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming"
+            }
+        },
+        {
+            "id": "skill_ontology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Ontology"
+            }
+        },
+        {
+            "id": "skill_dataset_management",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Dataset management"
+            }
+        },
+        {
+            "id": "skill_labs",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Labs"
+            }
+        },
+        {
+            "id": "skill_level",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Level"
+            }
+        },
+        {
+            "id": "skill_models",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Models"
+            }
+        },
+        {
+            "id": "skill_activities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Activities"
+            }
+        },
+        {
+            "id": "skill_data_insights",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Insights"
+            }
+        },
+        {
+            "id": "skill_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Language"
+            }
+        },
+        {
+            "id": "skill_material",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Material"
+            }
+        },
+        {
+            "id": "skill_reasoning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Reasoning"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "lehna_patrick",
+            "target": "skill_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_knowledge",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_data_mining",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_detection",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_deep_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_prediction",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_intelligence",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_requirements_gathering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_process",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_research_assistant",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_process_improvement",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_formulation",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_r",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_improvement",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_education",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_management",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_artificial_intelligence",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_mining",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_m",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_programming_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_is",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_modeling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_nlp",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_semiconductor",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_innovation",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_research",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_classification",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_design",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_research_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_predictive_modeling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_requirements",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_insights",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_programming",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_ontology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_dataset_management",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_labs",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_level",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_models",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_activities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_data_insights",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_material",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "lehna_patrick",
+            "target": "skill_reasoning",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

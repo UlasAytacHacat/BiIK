@@ -1,0 +1,936 @@
+{
+    "entities": [
+        {
+            "id": "one97_communications_limited",
+            "label": "Aday",
+            "properties": {
+                "name": "One97 Communications Limited"
+            }
+        },
+        {
+            "id": "skill_building",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Building"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "python"
+            }
+        },
+        {
+            "id": "skill_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "java"
+            }
+        },
+        {
+            "id": "skill_knowledge",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Knowledge"
+            }
+        },
+        {
+            "id": "skill_processing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Processing"
+            }
+        },
+        {
+            "id": "skill_performance",
+            "label": "Yetenek",
+            "properties": {
+                "name": "performance"
+            }
+        },
+        {
+            "id": "skill_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technology"
+            }
+        },
+        {
+            "id": "skill_pyspark",
+            "label": "Yetenek",
+            "properties": {
+                "name": "PySpark"
+            }
+        },
+        {
+            "id": "skill_data_scientist",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Scientist"
+            }
+        },
+        {
+            "id": "skill_detection",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Detection"
+            }
+        },
+        {
+            "id": "skill_computer_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "computer science"
+            }
+        },
+        {
+            "id": "skill_images",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Images"
+            }
+        },
+        {
+            "id": "skill_deep_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Deep Learning"
+            }
+        },
+        {
+            "id": "skill_data_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "data science"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_projects",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Projects"
+            }
+        },
+        {
+            "id": "skill_can",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CAN"
+            }
+        },
+        {
+            "id": "skill_market_research",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Market Research"
+            }
+        },
+        {
+            "id": "skill_data_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Analysis"
+            }
+        },
+        {
+            "id": "skill_computer_vision",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer Vision"
+            }
+        },
+        {
+            "id": "skill_process",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Process"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "skill_ocr",
+            "label": "Yetenek",
+            "properties": {
+                "name": "OCR"
+            }
+        },
+        {
+            "id": "skill_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analysis"
+            }
+        },
+        {
+            "id": "skill_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learning"
+            }
+        },
+        {
+            "id": "skill_software_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software Engineer"
+            }
+        },
+        {
+            "id": "skill_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Science"
+            }
+        },
+        {
+            "id": "skill_probability",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Probability"
+            }
+        },
+        {
+            "id": "skill_exchange",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Exchange"
+            }
+        },
+        {
+            "id": "skill_m",
+            "label": "Yetenek",
+            "properties": {
+                "name": "M"
+            }
+        },
+        {
+            "id": "skill_vision",
+            "label": "Yetenek",
+            "properties": {
+                "name": "vision"
+            }
+        },
+        {
+            "id": "skill_communications",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Communications"
+            }
+        },
+        {
+            "id": "skill_language_processing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Language Processing"
+            }
+        },
+        {
+            "id": "skill_team",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Team"
+            }
+        },
+        {
+            "id": "skill_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data"
+            }
+        },
+        {
+            "id": "skill_natural_language_processing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Natural Language Processing"
+            }
+        },
+        {
+            "id": "skill_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineer"
+            }
+        },
+        {
+            "id": "skill_object_detection",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Object detection"
+            }
+        },
+        {
+            "id": "skill_pattern",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Pattern"
+            }
+        },
+        {
+            "id": "skill_computer_science_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer Science Engineering"
+            }
+        },
+        {
+            "id": "skill_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "machine learning"
+            }
+        },
+        {
+            "id": "skill_kubeflow",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Kubeflow"
+            }
+        },
+        {
+            "id": "skill_research",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research"
+            }
+        },
+        {
+            "id": "skill_patterns",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Patterns"
+            }
+        },
+        {
+            "id": "skill_premium",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Premium"
+            }
+        },
+        {
+            "id": "skill_problems",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Problems"
+            }
+        },
+        {
+            "id": "skill_algorithms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Algorithms"
+            }
+        },
+        {
+            "id": "skill_application",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Application"
+            }
+        },
+        {
+            "id": "skill_data_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data analyst"
+            }
+        },
+        {
+            "id": "skill_natural_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Natural Language"
+            }
+        },
+        {
+            "id": "skill_insights",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Insights"
+            }
+        },
+        {
+            "id": "skill_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analyst"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_recognition",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Recognition"
+            }
+        },
+        {
+            "id": "skill_insurance",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Insurance"
+            }
+        },
+        {
+            "id": "skill_customer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Customer"
+            }
+        },
+        {
+            "id": "skill_information",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Information"
+            }
+        },
+        {
+            "id": "skill_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering"
+            }
+        },
+        {
+            "id": "skill_computer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer"
+            }
+        },
+        {
+            "id": "skill_software",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software"
+            }
+        },
+        {
+            "id": "skill_application_building",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Application building"
+            }
+        },
+        {
+            "id": "skill_cnn",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CNN"
+            }
+        },
+        {
+            "id": "skill_customer_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Customer Analysis"
+            }
+        },
+        {
+            "id": "skill_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Language"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_scientist",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Scientist"
+            }
+        },
+        {
+            "id": "skill_fields",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Fields"
+            }
+        },
+        {
+            "id": "skill_rto",
+            "label": "Yetenek",
+            "properties": {
+                "name": "RTO"
+            }
+        },
+        {
+            "id": "skill_space",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Space"
+            }
+        },
+        {
+            "id": "skill_commerce",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Commerce"
+            }
+        },
+        {
+            "id": "one97_communications_limited_",
+            "label": "Sirket",
+            "properties": {
+                "name": "One97 Communications Limited "
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_building",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_knowledge",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_processing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_performance",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_pyspark",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_data_scientist",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_detection",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_computer_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_images",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_deep_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_data_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_projects",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_can",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_market_research",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_data_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_computer_vision",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_process",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_ocr",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_software_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_probability",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_exchange",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_m",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_vision",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_communications",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_language_processing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_team",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_natural_language_processing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_object_detection",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_pattern",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_computer_science_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_kubeflow",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_research",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_patterns",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_premium",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_problems",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_algorithms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_application",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_data_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_natural_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_insights",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_recognition",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_insurance",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_customer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_information",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_computer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_software",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_application_building",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_cnn",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_customer_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_scientist",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_fields",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_rto",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_space",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "skill_commerce",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "one97_communications_limited",
+            "target": "one97_communications_limited_",
+            "type": "CALISTI",
+            "properties": {}
+        }
+    ]
+}

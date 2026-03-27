@@ -1,0 +1,1482 @@
+{
+    "entities": [
+        {
+            "id": "curriculum_vitae",
+            "label": "Aday",
+            "properties": {
+                "name": "Curriculum Vitae"
+            }
+        },
+        {
+            "id": "skill_typing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Typing"
+            }
+        },
+        {
+            "id": "skill_gmail",
+            "label": "Yetenek",
+            "properties": {
+                "name": "GMail"
+            }
+        },
+        {
+            "id": "skill_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "java"
+            }
+        },
+        {
+            "id": "skill_knowledge",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Knowledge"
+            }
+        },
+        {
+            "id": "skill_components",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Components"
+            }
+        },
+        {
+            "id": "skill_flexible",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Flexible"
+            }
+        },
+        {
+            "id": "skill_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technology"
+            }
+        },
+        {
+            "id": "skill_billing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Billing"
+            }
+        },
+        {
+            "id": "skill_curriculum_vitae",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Curriculum Vitae"
+            }
+        },
+        {
+            "id": "skill_service_delivery",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Service Delivery"
+            }
+        },
+        {
+            "id": "skill_computer_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "computer science"
+            }
+        },
+        {
+            "id": "skill_motivating",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Motivating"
+            }
+        },
+        {
+            "id": "skill_c_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C language"
+            }
+        },
+        {
+            "id": "skill_ltd",
+            "label": "Yetenek",
+            "properties": {
+                "name": "LTD"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_coding",
+            "label": "Yetenek",
+            "properties": {
+                "name": "coding"
+            }
+        },
+        {
+            "id": "skill_time",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Time"
+            }
+        },
+        {
+            "id": "skill_company",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Company"
+            }
+        },
+        {
+            "id": "skill_backup",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Backup"
+            }
+        },
+        {
+            "id": "skill_mobile",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mobile"
+            }
+        },
+        {
+            "id": "skill_networks",
+            "label": "Yetenek",
+            "properties": {
+                "name": "networks"
+            }
+        },
+        {
+            "id": "skill_banking",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Banking"
+            }
+        },
+        {
+            "id": "skill_growth",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Growth"
+            }
+        },
+        {
+            "id": "skill_operating_system",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Operating System"
+            }
+        },
+        {
+            "id": "skill_punctuality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Punctuality"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "skill_global",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Global"
+            }
+        },
+        {
+            "id": "skill_networking",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Networking"
+            }
+        },
+        {
+            "id": "skill_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Science"
+            }
+        },
+        {
+            "id": "skill_management",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Management"
+            }
+        },
+        {
+            "id": "skill_value",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Value"
+            }
+        },
+        {
+            "id": "skill_teamwork_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Teamwork skills"
+            }
+        },
+        {
+            "id": "skill_computer_networks",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer Networks"
+            }
+        },
+        {
+            "id": "skill_mini",
+            "label": "Yetenek",
+            "properties": {
+                "name": "MINI"
+            }
+        },
+        {
+            "id": "skill_computer_networking",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer Networking"
+            }
+        },
+        {
+            "id": "skill_accounting",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Accounting"
+            }
+        },
+        {
+            "id": "skill_store",
+            "label": "Yetenek",
+            "properties": {
+                "name": "STORE"
+            }
+        },
+        {
+            "id": "skill_delivery",
+            "label": "Yetenek",
+            "properties": {
+                "name": "delivery"
+            }
+        },
+        {
+            "id": "skill_team",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Team"
+            }
+        },
+        {
+            "id": "skill_college",
+            "label": "Yetenek",
+            "properties": {
+                "name": "College"
+            }
+        },
+        {
+            "id": "skill_languages",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Languages"
+            }
+        },
+        {
+            "id": "skill_programming_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming Language"
+            }
+        },
+        {
+            "id": "skill_digital",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Digital"
+            }
+        },
+        {
+            "id": "skill_supply_chains",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Supply chains"
+            }
+        },
+        {
+            "id": "skill_training",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Training"
+            }
+        },
+        {
+            "id": "skill_system",
+            "label": "Yetenek",
+            "properties": {
+                "name": "System"
+            }
+        },
+        {
+            "id": "skill_is",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IS"
+            }
+        },
+        {
+            "id": "skill_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data"
+            }
+        },
+        {
+            "id": "skill_economy",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Economy"
+            }
+        },
+        {
+            "id": "skill_supply",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Supply"
+            }
+        },
+        {
+            "id": "skill_communication_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Communication Skills"
+            }
+        },
+        {
+            "id": "skill_organization",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Organization"
+            }
+        },
+        {
+            "id": "skill_word",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Word"
+            }
+        },
+        {
+            "id": "skill_career_growth",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Career Growth"
+            }
+        },
+        {
+            "id": "skill_power_point",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Power Point"
+            }
+        },
+        {
+            "id": "skill_office",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Office"
+            }
+        },
+        {
+            "id": "skill_hardware_systems",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hardware Systems"
+            }
+        },
+        {
+            "id": "skill_fast",
+            "label": "Yetenek",
+            "properties": {
+                "name": "FAST"
+            }
+        },
+        {
+            "id": "skill_qualification",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Qualification"
+            }
+        },
+        {
+            "id": "skill_competencies",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Competencies"
+            }
+        },
+        {
+            "id": "skill_type",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Type"
+            }
+        },
+        {
+            "id": "skill_hindi",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hindi"
+            }
+        },
+        {
+            "id": "skill_library",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Library"
+            }
+        },
+        {
+            "id": "skill_diagram",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Diagram"
+            }
+        },
+        {
+            "id": "skill_service",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Service"
+            }
+        },
+        {
+            "id": "skill_infrastructure",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Infrastructure"
+            }
+        },
+        {
+            "id": "skill_connectivity",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Connectivity"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_ms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "MS"
+            }
+        },
+        {
+            "id": "skill_technologies",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technologies"
+            }
+        },
+        {
+            "id": "skill_email",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Email"
+            }
+        },
+        {
+            "id": "skill_good_communication",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Good communication"
+            }
+        },
+        {
+            "id": "skill_programming",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming"
+            }
+        },
+        {
+            "id": "skill_ms_office",
+            "label": "Yetenek",
+            "properties": {
+                "name": "MS Office"
+            }
+        },
+        {
+            "id": "skill_tools",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tools"
+            }
+        },
+        {
+            "id": "skill_excel",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Excel"
+            }
+        },
+        {
+            "id": "skill_curriculum",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Curriculum"
+            }
+        },
+        {
+            "id": "skill_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Development"
+            }
+        },
+        {
+            "id": "skill_math",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Math"
+            }
+        },
+        {
+            "id": "skill_com",
+            "label": "Yetenek",
+            "properties": {
+                "name": "COM"
+            }
+        },
+        {
+            "id": "skill_information",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Information"
+            }
+        },
+        {
+            "id": "skill_html",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HTML"
+            }
+        },
+        {
+            "id": "skill_data_base_management",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data base management"
+            }
+        },
+        {
+            "id": "skill_telecommunications",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Telecommunications"
+            }
+        },
+        {
+            "id": "skill_sincerity",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Sincerity"
+            }
+        },
+        {
+            "id": "skill_data_base",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data base"
+            }
+        },
+        {
+            "id": "skill_power",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Power"
+            }
+        },
+        {
+            "id": "skill_level",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Level"
+            }
+        },
+        {
+            "id": "skill_virtual",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Virtual"
+            }
+        },
+        {
+            "id": "skill_computer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer"
+            }
+        },
+        {
+            "id": "skill_software",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software"
+            }
+        },
+        {
+            "id": "skill_responsibility",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Responsibility"
+            }
+        },
+        {
+            "id": "skill_teamwork",
+            "label": "Yetenek",
+            "properties": {
+                "name": "teamwork"
+            }
+        },
+        {
+            "id": "skill_business",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Business"
+            }
+        },
+        {
+            "id": "skill_english",
+            "label": "Yetenek",
+            "properties": {
+                "name": "English"
+            }
+        },
+        {
+            "id": "skill_it",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IT"
+            }
+        },
+        {
+            "id": "skill_hardware",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hardware"
+            }
+        },
+        {
+            "id": "skill_success",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Success"
+            }
+        },
+        {
+            "id": "skill_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Language"
+            }
+        },
+        {
+            "id": "skill_size",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Size"
+            }
+        },
+        {
+            "id": "skill_good_communication_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Good communication skills"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_communication",
+            "label": "Yetenek",
+            "properties": {
+                "name": "communication"
+            }
+        },
+        {
+            "id": "skill_resiliency",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Resiliency"
+            }
+        },
+        {
+            "id": "skill_project",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Project"
+            }
+        },
+        {
+            "id": "skill_personal",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Personal"
+            }
+        },
+        {
+            "id": "skill_internet",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Internet"
+            }
+        },
+        {
+            "id": "skill_industrial",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Industrial"
+            }
+        },
+        {
+            "id": "skill_adaptive",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Adaptive"
+            }
+        },
+        {
+            "id": "skill_forms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Forms"
+            }
+        },
+        {
+            "id": "skill_commerce",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Commerce"
+            }
+        },
+        {
+            "id": "skill_systems",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Systems"
+            }
+        },
+        {
+            "id": "skill_rapidly",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Rapidly"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_typing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_gmail",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_knowledge",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_components",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_flexible",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_billing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_curriculum_vitae",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_service_delivery",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_computer_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_motivating",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_c_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_ltd",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_coding",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_time",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_company",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_backup",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_mobile",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_networks",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_banking",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_growth",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_operating_system",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_punctuality",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_global",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_networking",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_management",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_value",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_teamwork_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_computer_networks",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_mini",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_computer_networking",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_accounting",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_store",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_delivery",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_team",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_college",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_languages",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_programming_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_digital",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_supply_chains",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_training",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_system",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_is",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_economy",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_supply",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_communication_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_organization",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_word",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_career_growth",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_power_point",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_office",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_hardware_systems",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_fast",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_qualification",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_competencies",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_type",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_hindi",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_library",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_diagram",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_service",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_infrastructure",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_connectivity",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_ms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_technologies",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_email",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_good_communication",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_programming",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_ms_office",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_tools",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_excel",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_curriculum",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_math",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_com",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_information",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_html",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_data_base_management",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_telecommunications",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_sincerity",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_data_base",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_power",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_level",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_virtual",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_computer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_software",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_responsibility",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_teamwork",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_business",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_english",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_it",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_hardware",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_success",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_size",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_good_communication_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_communication",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_resiliency",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_project",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_personal",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_internet",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_industrial",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_adaptive",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_forms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_commerce",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_systems",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_rapidly",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

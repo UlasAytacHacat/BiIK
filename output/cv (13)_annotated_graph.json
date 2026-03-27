@@ -1,0 +1,1092 @@
+{
+    "entities": [
+        {
+            "id": "curriculum_vitae",
+            "label": "Aday",
+            "properties": {
+                "name": "CURRICULUM VITAE"
+            }
+        },
+        {
+            "id": "skill_knowledge",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Knowledge"
+            }
+        },
+        {
+            "id": "skill_manufacturing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Manufacturing"
+            }
+        },
+        {
+            "id": "skill_technology",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technology"
+            }
+        },
+        {
+            "id": "skill_mounting",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mounting"
+            }
+        },
+        {
+            "id": "skill_curriculum_vitae",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Curriculum Vitae"
+            }
+        },
+        {
+            "id": "skill_reading",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Reading"
+            }
+        },
+        {
+            "id": "skill_c_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C language"
+            }
+        },
+        {
+            "id": "skill_ltd",
+            "label": "Yetenek",
+            "properties": {
+                "name": "LTD"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_time",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Time"
+            }
+        },
+        {
+            "id": "skill_microsoft",
+            "label": "Yetenek",
+            "properties": {
+                "name": "microsoft"
+            }
+        },
+        {
+            "id": "skill_growth",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Growth"
+            }
+        },
+        {
+            "id": "skill_process",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Process"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "skill_read",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Read"
+            }
+        },
+        {
+            "id": "skill_parts",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Parts"
+            }
+        },
+        {
+            "id": "skill_outlook",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Outlook"
+            }
+        },
+        {
+            "id": "skill_linkedin",
+            "label": "Yetenek",
+            "properties": {
+                "name": "LinkedIn"
+            }
+        },
+        {
+            "id": "skill_m",
+            "label": "Yetenek",
+            "properties": {
+                "name": "M"
+            }
+        },
+        {
+            "id": "skill_drawing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Drawing"
+            }
+        },
+        {
+            "id": "skill_lean",
+            "label": "Yetenek",
+            "properties": {
+                "name": "LEAN"
+            }
+        },
+        {
+            "id": "skill_board",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Board"
+            }
+        },
+        {
+            "id": "skill_team",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Team"
+            }
+        },
+        {
+            "id": "skill_leadership",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Leadership"
+            }
+        },
+        {
+            "id": "skill_maintenance",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Maintenance"
+            }
+        },
+        {
+            "id": "skill_exam",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Exam"
+            }
+        },
+        {
+            "id": "skill_training",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Training"
+            }
+        },
+        {
+            "id": "skill_team_player",
+            "label": "Yetenek",
+            "properties": {
+                "name": "team player"
+            }
+        },
+        {
+            "id": "skill_is",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IS"
+            }
+        },
+        {
+            "id": "skill_personality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Personality"
+            }
+        },
+        {
+            "id": "skill_microsoft_office",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Microsoft office"
+            }
+        },
+        {
+            "id": "skill_automotive_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Automotive engineering"
+            }
+        },
+        {
+            "id": "skill_learner",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learner"
+            }
+        },
+        {
+            "id": "skill_office",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Office"
+            }
+        },
+        {
+            "id": "skill_written",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Written"
+            }
+        },
+        {
+            "id": "skill_research",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research"
+            }
+        },
+        {
+            "id": "skill_engines",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engines"
+            }
+        },
+        {
+            "id": "skill_qualification",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Qualification"
+            }
+        },
+        {
+            "id": "skill_hindi",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hindi"
+            }
+        },
+        {
+            "id": "skill_diagram",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Diagram"
+            }
+        },
+        {
+            "id": "skill_automotive",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Automotive"
+            }
+        },
+        {
+            "id": "skill_academic",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Academic"
+            }
+        },
+        {
+            "id": "skill_refrigeration",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Refrigeration"
+            }
+        },
+        {
+            "id": "skill_active_listening",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Active Listening"
+            }
+        },
+        {
+            "id": "skill_production",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Production"
+            }
+        },
+        {
+            "id": "skill_department",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Department"
+            }
+        },
+        {
+            "id": "skill_controlling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Controlling"
+            }
+        },
+        {
+            "id": "skill_ic",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IC"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_technologies",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technologies"
+            }
+        },
+        {
+            "id": "skill_email",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Email"
+            }
+        },
+        {
+            "id": "skill_phone",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Phone"
+            }
+        },
+        {
+            "id": "skill_mechanical",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mechanical"
+            }
+        },
+        {
+            "id": "skill_strength",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Strength"
+            }
+        },
+        {
+            "id": "skill_solid",
+            "label": "Yetenek",
+            "properties": {
+                "name": "SOLID"
+            }
+        },
+        {
+            "id": "skill_curriculum",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Curriculum"
+            }
+        },
+        {
+            "id": "skill_com",
+            "label": "Yetenek",
+            "properties": {
+                "name": "COM"
+            }
+        },
+        {
+            "id": "skill_use",
+            "label": "Yetenek",
+            "properties": {
+                "name": "USE"
+            }
+        },
+        {
+            "id": "skill_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering"
+            }
+        },
+        {
+            "id": "skill_positive_attitude",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Positive attitude"
+            }
+        },
+        {
+            "id": "skill_degree",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Degree"
+            }
+        },
+        {
+            "id": "skill_sincerity",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Sincerity"
+            }
+        },
+        {
+            "id": "skill_level",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Level"
+            }
+        },
+        {
+            "id": "skill_sensors",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Sensors"
+            }
+        },
+        {
+            "id": "skill_implementing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Implementing"
+            }
+        },
+        {
+            "id": "skill_purview",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Purview"
+            }
+        },
+        {
+            "id": "skill_rods",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Rods"
+            }
+        },
+        {
+            "id": "skill_english",
+            "label": "Yetenek",
+            "properties": {
+                "name": "English"
+            }
+        },
+        {
+            "id": "skill_it",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IT"
+            }
+        },
+        {
+            "id": "skill_language",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Language"
+            }
+        },
+        {
+            "id": "skill_motors",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Motors"
+            }
+        },
+        {
+            "id": "skill_confidence",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Confidence"
+            }
+        },
+        {
+            "id": "skill_support",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Support"
+            }
+        },
+        {
+            "id": "skill_security",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Security"
+            }
+        },
+        {
+            "id": "skill_listening",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Listening"
+            }
+        },
+        {
+            "id": "skill_project",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Project"
+            }
+        },
+        {
+            "id": "skill_modelling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Modelling"
+            }
+        },
+        {
+            "id": "skill_german",
+            "label": "Yetenek",
+            "properties": {
+                "name": "German"
+            }
+        },
+        {
+            "id": "skill_lean_manufacturing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Lean manufacturing"
+            }
+        },
+        {
+            "id": "skill_presentation",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Presentation"
+            }
+        },
+        {
+            "id": "skill_organisation",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Organisation"
+            }
+        },
+        {
+            "id": "skill_quick_learner",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Quick Learner"
+            }
+        },
+        {
+            "id": "skill_quality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Quality"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_knowledge",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_manufacturing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_technology",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_mounting",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_curriculum_vitae",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_reading",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_c_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_ltd",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_time",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_microsoft",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_growth",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_process",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_read",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_parts",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_outlook",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_linkedin",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_m",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_drawing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_lean",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_board",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_team",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_leadership",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_maintenance",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_exam",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_training",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_team_player",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_is",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_personality",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_microsoft_office",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_automotive_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_learner",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_office",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_written",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_research",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_engines",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_qualification",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_hindi",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_diagram",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_automotive",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_academic",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_refrigeration",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_active_listening",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_production",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_department",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_controlling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_ic",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_technologies",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_email",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_phone",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_mechanical",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_strength",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_solid",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_curriculum",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_com",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_use",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_positive_attitude",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_degree",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_sincerity",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_level",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_sensors",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_implementing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_purview",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_rods",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_english",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_it",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_language",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_motors",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_confidence",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_support",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_security",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_listening",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_project",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_modelling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_german",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_lean_manufacturing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_presentation",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_organisation",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_quick_learner",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "curriculum_vitae",
+            "target": "skill_quality",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

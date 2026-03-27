@@ -1,0 +1,663 @@
+{
+    "entities": [
+        {
+            "id": "stella_thatcher",
+            "label": "Aday",
+            "properties": {
+                "name": "Stella Thatcher"
+            }
+        },
+        {
+            "id": "skill_risk",
+            "label": "Yetenek",
+            "properties": {
+                "name": "RISK"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "python"
+            }
+        },
+        {
+            "id": "skill_data_mining",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Mining"
+            }
+        },
+        {
+            "id": "skill_clients",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Clients"
+            }
+        },
+        {
+            "id": "skill_business_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Business Analyst"
+            }
+        },
+        {
+            "id": "skill_intelligence",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Intelligence"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_projects",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Projects"
+            }
+        },
+        {
+            "id": "skill_market_research",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Market Research"
+            }
+        },
+        {
+            "id": "skill_solutions",
+            "label": "Yetenek",
+            "properties": {
+                "name": "solutions"
+            }
+        },
+        {
+            "id": "skill_analytics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analytics"
+            }
+        },
+        {
+            "id": "skill_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analysis"
+            }
+        },
+        {
+            "id": "skill_customer_engagement",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Customer engagement"
+            }
+        },
+        {
+            "id": "skill_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Learning"
+            }
+        },
+        {
+            "id": "skill_stock",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Stock"
+            }
+        },
+        {
+            "id": "skill_education",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Education"
+            }
+        },
+        {
+            "id": "skill_management",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Management"
+            }
+        },
+        {
+            "id": "skill_machine_learning_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Machine Learning Engineer"
+            }
+        },
+        {
+            "id": "skill_associate",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Associate"
+            }
+        },
+        {
+            "id": "skill_mining",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mining"
+            }
+        },
+        {
+            "id": "skill_work_experience",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work experience"
+            }
+        },
+        {
+            "id": "skill_college",
+            "label": "Yetenek",
+            "properties": {
+                "name": "College"
+            }
+        },
+        {
+            "id": "skill_is",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IS"
+            }
+        },
+        {
+            "id": "skill_data",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data"
+            }
+        },
+        {
+            "id": "skill_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineer"
+            }
+        },
+        {
+            "id": "skill_modeling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Modeling"
+            }
+        },
+        {
+            "id": "skill_product",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Product"
+            }
+        },
+        {
+            "id": "skill_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "machine learning"
+            }
+        },
+        {
+            "id": "skill_research",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research"
+            }
+        },
+        {
+            "id": "skill_research_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research analyst"
+            }
+        },
+        {
+            "id": "skill_groups",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Groups"
+            }
+        },
+        {
+            "id": "skill_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analyst"
+            }
+        },
+        {
+            "id": "skill_tech",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tech"
+            }
+        },
+        {
+            "id": "skill_idea",
+            "label": "Yetenek",
+            "properties": {
+                "name": "IDEA"
+            }
+        },
+        {
+            "id": "skill_mechanical",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mechanical"
+            }
+        },
+        {
+            "id": "skill_customer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Customer"
+            }
+        },
+        {
+            "id": "skill_business_analytics",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Business Analytics"
+            }
+        },
+        {
+            "id": "skill_predictive_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Predictive Analysis"
+            }
+        },
+        {
+            "id": "skill_activities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Activities"
+            }
+        },
+        {
+            "id": "skill_business",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Business"
+            }
+        },
+        {
+            "id": "skill_target",
+            "label": "Yetenek",
+            "properties": {
+                "name": "TARGET"
+            }
+        },
+        {
+            "id": "skill_stella",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Stella"
+            }
+        },
+        {
+            "id": "skill_grasp",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Grasp"
+            }
+        },
+        {
+            "id": "skill_work",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Work"
+            }
+        },
+        {
+            "id": "skill_audience",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Audience"
+            }
+        },
+        {
+            "id": "skill_engagement",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engagement"
+            }
+        },
+        {
+            "id": "skill_focused",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Focused"
+            }
+        },
+        {
+            "id": "skill_research_associate",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Research Associate"
+            }
+        },
+        {
+            "id": "skill_retention",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Retention"
+            }
+        },
+        {
+            "id": "skill_professional",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Professional"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "stella_thatcher",
+            "target": "skill_risk",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_data_mining",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_clients",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_business_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_intelligence",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_projects",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_market_research",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_solutions",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_analytics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_customer_engagement",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_stock",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_education",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_management",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_machine_learning_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_associate",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_mining",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_work_experience",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_college",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_is",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_data",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_modeling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_product",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_research",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_research_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_groups",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_tech",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_idea",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_mechanical",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_customer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_business_analytics",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_predictive_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_activities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_business",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_target",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_stella",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_grasp",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_work",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_audience",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_engagement",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_focused",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_research_associate",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_retention",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "stella_thatcher",
+            "target": "skill_professional",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}

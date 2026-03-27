@@ -1,0 +1,1170 @@
+{
+    "entities": [
+        {
+            "id": "resume",
+            "label": "Aday",
+            "properties": {
+                "name": "RESUME"
+            }
+        },
+        {
+            "id": "skill_windows_xp",
+            "label": "Yetenek",
+            "properties": {
+                "name": "WINDOWS XP"
+            }
+        },
+        {
+            "id": "skill_gmail",
+            "label": "Yetenek",
+            "properties": {
+                "name": "GMail"
+            }
+        },
+        {
+            "id": "skill_knowledge",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Knowledge"
+            }
+        },
+        {
+            "id": "skill_customer_problems",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Customer Problems"
+            }
+        },
+        {
+            "id": "skill_age",
+            "label": "Yetenek",
+            "properties": {
+                "name": "age"
+            }
+        },
+        {
+            "id": "skill_platform",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Platform"
+            }
+        },
+        {
+            "id": "skill_resume",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Resume"
+            }
+        },
+        {
+            "id": "skill_detection",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Detection"
+            }
+        },
+        {
+            "id": "skill_autocad",
+            "label": "Yetenek",
+            "properties": {
+                "name": "AutoCAD"
+            }
+        },
+        {
+            "id": "skill_ltd",
+            "label": "Yetenek",
+            "properties": {
+                "name": "LTD"
+            }
+        },
+        {
+            "id": "skill_skills",
+            "label": "Yetenek",
+            "properties": {
+                "name": "skills"
+            }
+        },
+        {
+            "id": "skill_company",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Company"
+            }
+        },
+        {
+            "id": "skill_high_school",
+            "label": "Yetenek",
+            "properties": {
+                "name": "High School"
+            }
+        },
+        {
+            "id": "skill_report",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Report"
+            }
+        },
+        {
+            "id": "skill_auditing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Auditing"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "skill_marital_status",
+            "label": "Yetenek",
+            "properties": {
+                "name": "marital status"
+            }
+        },
+        {
+            "id": "skill_3d",
+            "label": "Yetenek",
+            "properties": {
+                "name": "3D"
+            }
+        },
+        {
+            "id": "skill_parts",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Parts"
+            }
+        },
+        {
+            "id": "skill_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Analysis"
+            }
+        },
+        {
+            "id": "skill_programming_languages",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming Languages"
+            }
+        },
+        {
+            "id": "skill_education",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Education"
+            }
+        },
+        {
+            "id": "skill_design_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Design Engineer"
+            }
+        },
+        {
+            "id": "skill_senior",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Senior"
+            }
+        },
+        {
+            "id": "skill_m",
+            "label": "Yetenek",
+            "properties": {
+                "name": "M"
+            }
+        },
+        {
+            "id": "skill_certificates",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Certificates"
+            }
+        },
+        {
+            "id": "skill_board",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Board"
+            }
+        },
+        {
+            "id": "skill_team",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Team"
+            }
+        },
+        {
+            "id": "skill_upgrade",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Upgrade"
+            }
+        },
+        {
+            "id": "skill_college",
+            "label": "Yetenek",
+            "properties": {
+                "name": "College"
+            }
+        },
+        {
+            "id": "skill_languages",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Languages"
+            }
+        },
+        {
+            "id": "skill_maintenance",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Maintenance"
+            }
+        },
+        {
+            "id": "skill_safety",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Safety"
+            }
+        },
+        {
+            "id": "skill_training",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Training"
+            }
+        },
+        {
+            "id": "skill_control",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Control"
+            }
+        },
+        {
+            "id": "skill_trainings",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Trainings"
+            }
+        },
+        {
+            "id": "skill_engineer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineer"
+            }
+        },
+        {
+            "id": "skill_achieve",
+            "label": "Yetenek",
+            "properties": {
+                "name": "ACHIEVE"
+            }
+        },
+        {
+            "id": "skill_defects",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Defects"
+            }
+        },
+        {
+            "id": "skill_organization",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Organization"
+            }
+        },
+        {
+            "id": "skill_measuring",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Measuring"
+            }
+        },
+        {
+            "id": "skill_hindi",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Hindi"
+            }
+        },
+        {
+            "id": "skill_problems",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Problems"
+            }
+        },
+        {
+            "id": "skill_design",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Design"
+            }
+        },
+        {
+            "id": "skill_cad",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CAD"
+            }
+        },
+        {
+            "id": "skill_automotive",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Automotive"
+            }
+        },
+        {
+            "id": "skill_production",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Production"
+            }
+        },
+        {
+            "id": "skill_xp",
+            "label": "Yetenek",
+            "properties": {
+                "name": "XP"
+            }
+        },
+        {
+            "id": "skill_department",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Department"
+            }
+        },
+        {
+            "id": "skill_responsibilities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Responsibilities"
+            }
+        },
+        {
+            "id": "skill_fixtures",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Fixtures"
+            }
+        },
+        {
+            "id": "skill_roles",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Roles"
+            }
+        },
+        {
+            "id": "skill_phone",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Phone"
+            }
+        },
+        {
+            "id": "skill_mechanical",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mechanical"
+            }
+        },
+        {
+            "id": "skill_gender",
+            "label": "Yetenek",
+            "properties": {
+                "name": "gender"
+            }
+        },
+        {
+            "id": "skill_programming",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Programming"
+            }
+        },
+        {
+            "id": "skill_customer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Customer"
+            }
+        },
+        {
+            "id": "skill_c_programming",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C Programming"
+            }
+        },
+        {
+            "id": "skill_tools",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Tools"
+            }
+        },
+        {
+            "id": "skill_meet",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Meet"
+            }
+        },
+        {
+            "id": "skill_solid",
+            "label": "Yetenek",
+            "properties": {
+                "name": "SOLID"
+            }
+        },
+        {
+            "id": "skill_development",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Development"
+            }
+        },
+        {
+            "id": "skill_com",
+            "label": "Yetenek",
+            "properties": {
+                "name": "COM"
+            }
+        },
+        {
+            "id": "skill_roles_and_responsibilities",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Roles and Responsibilities"
+            }
+        },
+        {
+            "id": "skill_information",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Information"
+            }
+        },
+        {
+            "id": "skill_complaints",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Complaints"
+            }
+        },
+        {
+            "id": "skill_engineering",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Engineering"
+            }
+        },
+        {
+            "id": "skill_production_control",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Production Control"
+            }
+        },
+        {
+            "id": "skill_html",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HTML"
+            }
+        },
+        {
+            "id": "skill_coordinating",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Coordinating"
+            }
+        },
+        {
+            "id": "skill_scale",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Scale"
+            }
+        },
+        {
+            "id": "skill_diploma",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Diploma"
+            }
+        },
+        {
+            "id": "skill_mechanical_design",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Mechanical Design"
+            }
+        },
+        {
+            "id": "skill_software",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Software"
+            }
+        },
+        {
+            "id": "skill_responsibility",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Responsibility"
+            }
+        },
+        {
+            "id": "skill_nationality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Nationality"
+            }
+        },
+        {
+            "id": "skill_english",
+            "label": "Yetenek",
+            "properties": {
+                "name": "English"
+            }
+        },
+        {
+            "id": "skill_ppm",
+            "label": "Yetenek",
+            "properties": {
+                "name": "PPM"
+            }
+        },
+        {
+            "id": "skill_kaizen",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Kaizen"
+            }
+        },
+        {
+            "id": "skill_windows",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Windows"
+            }
+        },
+        {
+            "id": "skill_team_members",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Team members"
+            }
+        },
+        {
+            "id": "skill_project",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Project"
+            }
+        },
+        {
+            "id": "skill_personal",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Personal"
+            }
+        },
+        {
+            "id": "skill_inspection",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Inspection"
+            }
+        },
+        {
+            "id": "skill_catia",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Catia"
+            }
+        },
+        {
+            "id": "skill_collaborate",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Collaborate"
+            }
+        },
+        {
+            "id": "skill_members",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Members"
+            }
+        },
+        {
+            "id": "skill_quality",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Quality"
+            }
+        },
+        {
+            "id": "skill_technical",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Technical"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "resume",
+            "target": "skill_windows_xp",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_gmail",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_knowledge",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_customer_problems",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_age",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_platform",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_resume",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_detection",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_autocad",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_ltd",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_skills",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_company",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_high_school",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_report",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_auditing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_marital_status",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_3d",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_parts",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_programming_languages",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_education",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_design_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_senior",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_m",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_certificates",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_board",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_team",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_upgrade",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_college",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_languages",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_maintenance",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_safety",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_training",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_control",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_trainings",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_engineer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_achieve",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_defects",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_organization",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_measuring",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_hindi",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_problems",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_design",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_cad",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_automotive",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_production",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_xp",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_department",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_responsibilities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_fixtures",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_roles",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_phone",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_mechanical",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_gender",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_programming",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_customer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_c_programming",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_tools",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_meet",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_solid",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_development",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_com",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_roles_and_responsibilities",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_information",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_complaints",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_engineering",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_production_control",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_html",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_coordinating",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_scale",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_diploma",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_mechanical_design",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_software",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_responsibility",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_nationality",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_english",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_ppm",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_kaizen",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_windows",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_team_members",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_project",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_personal",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_inspection",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_catia",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_collaborate",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_members",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_quality",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "resume",
+            "target": "skill_technical",
+            "type": "SAHIP",
+            "properties": {}
+        }
+    ]
+}
