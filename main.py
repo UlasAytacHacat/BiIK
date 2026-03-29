@@ -12,7 +12,7 @@ load_dotenv()
 
 def test_single_cv():
     data_dir = Path("data")
-    first_cv = sorted(data_dir.glob("*.json"))[0]
+    first_cv = sorted(data_dir.glob("*.json"))[15]  # Rastgele bir CV seçelim
     print(f"[TEST] {first_cv.name} işleniyor...\n")
 
     with open(first_cv, encoding="utf-8") as f:
@@ -20,7 +20,16 @@ def test_single_cv():
 
     extractor = GroqExtractor()
     graph_data = extractor.extract(data.get("text", ""), data.get("annotations", []))
-    print(json.dumps(graph_data.model_dump(), indent=2, ensure_ascii=False))
+
+    embedder = OpenAIEmbedder()
+    graph_data = embedder.embed(graph_data)
+
+    output_dir = Path("output")
+    output_dir.mkdir(exist_ok=True)
+    output_path = output_dir / f"{first_cv.stem}_graph.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(graph_data.model_dump(), f, indent=4, ensure_ascii=False)
+    print(f"[KAYIT] {output_path}")
 
 
 def run_pipeline():
@@ -29,5 +38,5 @@ def run_pipeline():
 
 
 if __name__ == "__main__":
-    # test_single_cv()
-    run_pipeline()
+    test_single_cv()
+    # run_pipeline()
