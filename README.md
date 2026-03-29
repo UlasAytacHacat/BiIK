@@ -17,3 +17,12 @@ Bu proje, yapılandırılmamış veya yarı-yapılandırılmış CV verilerini (
 - `src/`: Core mantık ve şemalar.
 - `data/`: İşlenecek CV verileri.
 - `output/`: Üretilen Graph-JSON dosyaları.
+
+## Memgraph
+- docker run -it -p 7687:7687 -p 7444:7444 -p 3000:3000 --name memgraph memgraph/memgraph-platform
+- localhost:3000 memgraph arayüz
+- localhost:7687 memgraph 
+
+## Run
+- uvicorn api.main:app --reload --port 8000
+- npm run dev

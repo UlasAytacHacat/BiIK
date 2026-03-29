@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 import time
 
 from openai import OpenAI
@@ -10,8 +11,17 @@ from src.prompts import EXTRACTION_PROMPT
 from src.schema import GraphData
 
 _INTER_REQUEST_DELAY = 5
-_RETRY_WAIT_429 = 60
-_MAX_RETRIES = 2
+_RETRY_WAIT_429_DEFAULT = 60
+_MAX_RETRIES = 4
+_WAIT_BUFFER = 5  # API'nin söylediği süreye eklenen güvenlik payı (saniye)
+
+
+def _parse_retry_after(error_str: str) -> float:
+    """'Please try again in 10.94s' gibi mesajlardan saniye değerini çeker."""
+    match = re.search(r"try again in\s+([\d.]+)s", error_str)
+    if match:
+        return float(match.group(1)) + _WAIT_BUFFER
+    return _RETRY_WAIT_429_DEFAULT
 
 
 def _flatten_schema(schema: dict) -> dict:
@@ -80,13 +90,13 @@ class GroqExtractor(BaseExtractor):
             except Exception as exc:
                 last_error = exc
                 if attempt < _MAX_RETRIES:
-                    wait = _RETRY_WAIT_429 if "429" in str(exc) else 0
-                    msg = f"  [RETRY {attempt}/{_MAX_RETRIES}] {exc}"
-                    if wait:
-                        msg += f" — {wait}s bekleniyor"
-                    print(msg)
-                    if wait:
+                    exc_str = str(exc)
+                    if "429" in exc_str:
+                        wait = _parse_retry_after(exc_str)
+                        print(f"  [RETRY {attempt}/{_MAX_RETRIES}] Rate limit — {wait:.1f}s bekleniyor")
                         time.sleep(wait)
+                    else:
+                        print(f"  [RETRY {attempt}/{_MAX_RETRIES}] {exc}")
 
         raise RuntimeError(
             f"GroqExtractor {_MAX_RETRIES} denemede başarısız: {last_error}"

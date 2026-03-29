@@ -6,9 +6,9 @@ import time
 from openai import OpenAI
 
 from src.base import BaseEmbedder
+from src.labels import EMBEDDABLE_LABELS, NODE_PROJE, NODE_YETENEK
 from src.schema import GraphData
 
-_EMBED_LABELS = {"Yetenek", "Sirket", "Pozisyon", "Egitim", "Proje"}
 _MODEL = "text-embedding-3-large"
 
 
@@ -23,14 +23,14 @@ class OpenAIEmbedder(BaseEmbedder):
         skipped_empty = 0
 
         for entity in graph_data.entities:
-            if entity.label not in _EMBED_LABELS:
+            if entity.label not in EMBEDDABLE_LABELS:
                 skipped_label += 1
                 continue
 
             props = entity.properties
-            if entity.label == "Proje":
+            if entity.label == NODE_PROJE:
                 text = props.get("name", "") + " " + props.get("aciklama", "")
-            elif entity.label == "Yetenek" and not props.get("name"):
+            elif entity.label == NODE_YETENEK and not props.get("name"):
                 # ID'den türet: skill_machine_learning → Machine Learning
                 text = entity.id.split("_", 1)[-1].replace("_", " ").title()
             else:
@@ -47,5 +47,9 @@ class OpenAIEmbedder(BaseEmbedder):
             embedded += 1
             time.sleep(0.1)
 
-        print(f"  [EMBED] {embedded} embed edildi | {skipped_label} label dışı atlandı | {skipped_empty} boş name atlandı")
+        print(
+            f"  [EMBED] {embedded} embed edildi | "
+            f"{skipped_label} label dışı atlandı | "
+            f"{skipped_empty} boş name atlandı"
+        )
         return graph_data
