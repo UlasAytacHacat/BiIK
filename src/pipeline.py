@@ -38,6 +38,17 @@ class JSONWriter(BaseWriter):
 # Placeholder Embedder: veriyi değiştirmeden geçirir.
 # Aşama 3'te OpenAIEmbedder(BaseEmbedder) ile değiştirilebilir.
 # ---------------------------------------------------------------------------
+class MultiWriter(BaseWriter):
+    """Birden fazla writer'a sırayla yazar."""
+
+    def __init__(self, *writers: BaseWriter):
+        self._writers = writers
+
+    def write(self, graph_data: GraphData, source_filename: str) -> None:
+        for w in self._writers:
+            w.write(graph_data, source_filename)
+
+
 class PassThroughEmbedder(BaseEmbedder):
     def embed(self, graph_data: GraphData) -> GraphData:
         return graph_data

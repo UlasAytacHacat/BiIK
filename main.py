@@ -4,8 +4,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from src.groq_extractor import GroqExtractor
+from src.memgraph_writer import MemgraphWriter
 from src.openai_embedder import OpenAIEmbedder
-from src.pipeline import CVPipeline
+from src.pipeline import CVPipeline, JSONWriter, MultiWriter
 
 load_dotenv()
 
@@ -32,9 +33,22 @@ def test_single_cv():
     print(f"[KAYIT] {output_path}")
 
 
+def test_memgraph_connection():
+    with MemgraphWriter() as writer:
+        with writer._driver.session() as session:
+            result = session.run("RETURN 1 AS test")
+            record = result.single()
+            print(f"[BAĞLANTI] Memgraph yanıtı: {record['test']}")
+
+
 def run_pipeline():
-    pipeline = CVPipeline(extractor=GroqExtractor(), embedder=OpenAIEmbedder())
-    pipeline.run_all()
+    with MemgraphWriter() as writer:
+        pipeline = CVPipeline(
+            extractor=GroqExtractor(),
+            embedder=OpenAIEmbedder(),
+            writer=MultiWriter(JSONWriter(), writer),
+        )
+        pipeline.run_all()
 
 
 if __name__ == "__main__":
