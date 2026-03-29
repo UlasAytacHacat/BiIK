@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat \"c:/Users/Oğuz/Desktop/Oğuz/KODLAMA/BiIK/output/cv \\(2\\)_annotated_graph.json\")"
+    ]
+  }
+}
