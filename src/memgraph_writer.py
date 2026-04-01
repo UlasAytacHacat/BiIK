@@ -7,11 +7,10 @@ from collections import defaultdict
 from neo4j import GraphDatabase
 
 from src.base import BaseWriter
+from src.labels import ALL_NODE_LABELS, VECTOR_INDEX_LABELS
 from src.schema import GraphData
 
 _DEFAULT_URI = "bolt://localhost:7687"
-
-_EMBEDDABLE_LABELS = {"Yetenek", "Pozisyon", "Proje", "Sirket"}
 _EMBEDDING_DIM = 3072
 
 
@@ -23,10 +22,13 @@ class MemgraphWriter(BaseWriter):
         auth = (user, password) if user else None
         self._driver = GraphDatabase.driver(uri, auth=auth)
         print(f"[SİSTEM] Memgraph bağlantısı: {uri}")
+        try:
+            with self._driver.session() as session:
+                self._ensure_indexes(session)
+        except Exception as e:
+            print(f"  [WARN] Index oluşturma atlandı: {e}")
 
     def write(self, graph_data: GraphData, source_filename: str = "") -> None:
-        self._ensure_vector_indexes()
-
         with self._driver.session() as session:
             nodes_ok, nodes_fail = session.execute_write(
                 self._batch_merge_nodes, graph_data.entities
@@ -50,25 +52,33 @@ class MemgraphWriter(BaseWriter):
         self.close()
 
     # ------------------------------------------------------------------
-    # Vector index
+    # Index oluşturma — __init__ içinde bir kez çalışır
     # ------------------------------------------------------------------
 
-    def _ensure_vector_indexes(self) -> None:
-        with self._driver.session() as session:
-            for label in _EMBEDDABLE_LABELS:
-                idx_name = f"idx_{label.lower()}_embedding"
-                try:
-                    session.run(
-                        "CALL vector_search.create_index($name, $dim, $label, $prop, $metric) YIELD *",
-                        name=idx_name,
-                        dim=_EMBEDDING_DIM,
-                        label=label,
-                        prop="embedding",
-                        metric="cos",
-                    )
-                    print(f"  [INDEX] {idx_name} oluşturuldu")
-                except Exception:
-                    pass  # zaten varsa sessizce geç
+    @staticmethod
+    def _ensure_indexes(session) -> None:
+        # ID index'leri — node sorgularında hız için kritik
+        for label in ALL_NODE_LABELS:
+            try:
+                session.run(f"CREATE INDEX ON :{label}(id);")
+            except Exception:
+                pass  # zaten varsa hata verir — normal
+
+        # Vector index'leri — Aşama 5 vektör araması için
+        for label in VECTOR_INDEX_LABELS:
+            idx_name = f"idx_{label.lower()}_embedding"
+            try:
+                session.run(
+                    "CALL vector_search.create_index($name, $dim, $label, $prop, $metric) YIELD *",
+                    name=idx_name,
+                    dim=_EMBEDDING_DIM,
+                    label=label,
+                    prop="embedding",
+                    metric="cos",
+                )
+                print(f"  [INDEX] {idx_name} oluşturuldu")
+            except Exception:
+                pass  # zaten varsa hata verir — normal
 
     # ------------------------------------------------------------------
     # Batch transaction functions

@@ -4,7 +4,7 @@
 
 BiIK, Türkçe HR ekipleri için CV'lerden knowledge graph üreten ve GraphRAG tabanlı aday öneri sistemi kuran bir Python pipeline'ıdır.
 
-**Teknoloji yığını:** Python 3.10+ · Pydantic v2 · Gemini API · Memgraph · LangGraph  
+**Teknoloji yığını:** Python 3.10+ · Pydantic v2 · Groq API · OpenAI API · Memgraph · LangGraph
 **Geliştirme ortamı:** Windows, VS Code + Claude Code
 
 ---
@@ -13,23 +13,33 @@ BiIK, Türkçe HR ekipleri için CV'lerden knowledge graph üreten ve GraphRAG t
 
 ```
 BiIK/
-├── data/                  # Ham annotated JSON'lar (30 CV)
-├── output/                # İşlenmiş graph JSON'lar
+├── data/                     # Ham CV JSON'ları
+├── output/                   # İşlenmiş graph JSON'lar + .written sentinel'ları
+├── uploads/                  # Yüklenen ham dosyalar
 ├── src/
-│   ├── base.py            # Abstract sınıflar (BaseExtractor, BaseEmbedder, BaseWriter)
-│   ├── schema.py          # Pydantic modelleri (Entity, Relationship, GraphData)
-│   ├── labels.py          # Node label ve relation tip sabitleri
-│   ├── pipeline.py        # CVPipeline, JSONWriter, PassThroughEmbedder
-│   ├── gemini_extractor.py # LLM extraction (Aşama 2 — aktif)
-│   ├── gemini_embedder.py  # Embedding (Aşama 3 — yapılacak)
-│   └── memgraph_writer.py  # Graph DB yazıcı (Aşama 4 — yapılacak)
-├── prompts/
-│   └── tr.py              # Türkçe sistem promptları
-├── main.py
+│   ├── base.py               # Abstract sınıflar (BaseExtractor, BaseEmbedder, BaseWriter)
+│   ├── schema.py             # Pydantic modelleri (Entity, Relationship, GraphData)
+│   ├── labels.py             # Node label ve relation tip sabitleri — TEK KAYNAK
+│   ├── prompts.py            # Türkçe sistem promptu
+│   ├── groq_extractor.py     # LLM extraction — Groq llama-3.3-70b-versatile
+│   ├── openai_embedder.py    # Embedding — OpenAI text-embedding-3-large
+│   ├── memgraph_writer.py    # Graph DB yazıcı — batch Cypher + index yönetimi
+│   ├── node2vec_config.py    # Node2Vec parametreleri — Node2VecConfig dataclass
+│   └── node2vec_runner.py    # Node2Vec çalıştırıcı — Node2VecRunner sınıfı
+├── api/
+│   ├── main.py               # FastAPI app, CORS, router kayıtları
+│   └── routes/
+│       ├── ingest.py         # POST /ingest
+│       ├── convert.py        # POST /convert
+│       ├── extract.py        # POST /extract (singleton GroqExtractor)
+│       ├── embed.py          # POST /embed (singleton OpenAIEmbedder)
+│       ├── write.py          # POST /write (singleton MemgraphWriter + sentinel)
+│       ├── candidates.py     # GET /candidates
+│       └── reindex.py        # POST /reindex — Node2Vec tetikleyici
 ├── requirements.txt
-├── .env                   # API key'ler (git'e gitmesin)
+├── .env                      # API key'ler (git'e gitmesin)
 ├── .gitignore
-└── CLAUDE.md              # Bu dosya
+└── CLAUDE.md                 # Bu dosya
 ```
 
 ---
@@ -87,20 +97,41 @@ BiIK/
 - **Pydantic v2** kullan: `model_dump()`, `model_validate_json()`, `model_json_schema()`
 - `model.schema()` veya `model.dict()` kullanma — Pydantic v1 API'si
 - Her yeni implementasyon `src/base.py`'daki abstract sınıftan türemeli
-- `CVPipeline`'a dokunma — extractor/embedder/writer dışarıdan inject edilir
+- **String literal label/type kullanma** — her zaman `src/labels.py`'dan import et:
+  ```python
+  from src.labels import NODE_YETENEK, REL_CALISTI  # doğru
+  entity.label == "Yetenek"                          # yanlış
+  ```
+
+### Singleton Pattern (API route'ları)
+
+Her route modülünde extractor/embedder/writer modül seviyesinde tek instance olarak tutulur:
+```python
+_extractor: GroqExtractor | None = None
+
+def get_extractor() -> GroqExtractor:
+    global _extractor
+    if _extractor is None:
+        _extractor = GroqExtractor()
+    return _extractor
+```
+Bu pattern `extract.py`, `embed.py`, `write.py` içinde uygulanmıştır.
 
 ### Hata Yönetimi
 
-- Her LLM çağrısında max 2 retry
-- 429 hatası alınca **60 saniye** bekle, sonra retry yap
-- `run_all()` içinde her istek arasında **5 saniye** `time.sleep`
-- Hata olan CV'yi atla, geri kalanları işlemeye devam et
+- Her LLM çağrısında max 4 retry
+- 429 hatası alınca hata mesajındaki `"try again in Xs"` değeri parse edilir, üstüne 5s eklenerek beklenir
+- Default fallback: 60 saniye
+- Hata olan adımı atla, diğerlerine devam et
 
 ### Environment Variables
 
 ```bash
-GROQ_API_KEY=...     # Extraction için (llama-3.3-70b-versatile)
-OPENAI_API_KEY=...   # Embedding için (text-embedding-3-large)
+GROQ_API_KEY=...        # Extraction için (llama-3.3-70b-versatile)
+OPENAI_API_KEY=...      # Embedding için (text-embedding-3-large)
+MEMGRAPH_URI=...        # Opsiyonel, default: bolt://localhost:7687
+MEMGRAPH_USER=...       # Opsiyonel
+MEMGRAPH_PASSWORD=...   # Opsiyonel
 ```
 
 `.env` dosyası git'e gitmez. Yeni değişken eklenince hem `.env`'e hem bu dokümana yaz.
@@ -115,6 +146,7 @@ import os, time, json
 from openai import OpenAI
 
 # 3. Proje içi
+from src.labels import NODE_YETENEK, REL_CALISTI
 from src.schema import GraphData
 from src.base import BaseExtractor
 ```
@@ -128,7 +160,7 @@ from src.base import BaseExtractor
 | 1 | Kural tabanlı extraction | ✅ Tamamlandı (arşivde) |
 | 2 | LLM extraction (Groq llama-3.3-70b-versatile) | ✅ Tamamlandı |
 | 3 | Embedding (OpenAI text-embedding-3-large) | ✅ Tamamlandı |
-| 4 | Memgraph'a yazma + Node2Vec | ⏳ Bekliyor |
+| 4 | Memgraph'a yazma + Node2Vec | ✅ Tamamlandı |
 | 5 | RAG Pipeline | ⏳ Bekliyor |
 | 6 | LangGraph Agent | ⏳ Bekliyor |
 
@@ -140,38 +172,65 @@ from src.base import BaseExtractor
 **Boyut:** 3072-dim
 **Kütüphane:** `openai`
 
-**Ne embed edilir:**
-- `Yetenek` node'ları: `name` field'ı
-- `Pozisyon` node'ları: `name` field'ı
-- `Proje` node'ları: `name + aciklama` birleşimi
-- `Sirket` node'ları: `name` field'ı
-- `Aday` node'ları embed edilmez
+**Ne embed edilir** (`src/labels.py` → `EMBEDDABLE_LABELS`):
+- `Yetenek`: `name` field'ı
+- `Pozisyon`: `name` field'ı
+- `Proje`: `name + aciklama` birleşimi
+- `Sirket`: `name` field'ı
+- `Egitim`: `name` field'ı
+- `Aday` embed edilmez
 
 **Çıktı:** Her entity'nin `properties` dict'ine `embedding: List[float]` eklenir
-
 **Rate limit:** Dakikada 1500 token — `time.sleep(0.1)` yeterli
 
 ---
 
-## Aşama 4 — Memgraph Detayı
+## Aşama 4 — Memgraph + Node2Vec Detayı
 
-**Bağlantı:** Bolt protokolü, `neo4j` Python driver  
-**Port:** 7687 (default)  
+**Bağlantı:** Bolt protokolü, `neo4j` Python driver, port 7687
 **Query dili:** Cypher
+**Singleton:** `api/routes/write.py` → `get_writer()` — driver bağlantısı yeniden kullanılır
 
-Node yaratma şablonu:
-```cypher
-MERGE (n:Yetenek {id: $id})
-SET n.name = $name, n.embedding = $embedding
+### Index Yönetimi
+
+`MemgraphWriter.__init__` içinde otomatik çalışır:
+- **ID index:** Tüm node label'ları için `CREATE INDEX ON :Label(id)` — sorgu hızı
+- **Vector index:** `EMBEDDABLE_LABELS` için `vector_search.create_index(...)` — Aşama 5 araması
+
+### Sentinel Mekanizması
+
+`POST /write` başarıyla tamamlanınca `output/{stem}_graph.written` dosyası oluşturulur.
+Aynı dosya tekrar gönderilirse Memgraph'a yazmadan `{cached: true}` döner.
+`GET /candidates` bu dosyayı kontrol ederek `"written"` status'unu belirler.
+
+### Node2Vec
+
+**Config:** `src/node2vec_config.py` → `Node2VecConfig` dataclass
+**Runner:** `src/node2vec_runner.py` → `Node2VecRunner` sınıfı
+**Endpoint:** `POST /reindex` — query param'larla config override edilebilir
+
 ```
+POST /reindex                           → default config (p=2.0, q=0.5, size=64)
+POST /reindex?p=1.0&q=1.0              → random walk (BFS/DFS dengesi)
+POST /reindex?vector_size=128           → daha büyük vektör
+```
+
+Tune etmek için `src/node2vec_config.py` içindeki `DEFAULT_CONFIG`'i değiştir
+veya `/reindex` endpoint'ini farklı query param'larla çağır.
+
+> **Aşama 5 başlamadan önce `POST /reindex` çalıştırılmalıdır.**
 
 ---
 
-## Multi-Language Hazırlığı
+## Batch Transaction
 
-Node label'ları ve relation tipleri `src/labels.py`'da merkezi olarak tanımlı.  
-Dil değişikliği gerekirse sadece bu dosya güncellenir.  
-Kod içinde string literal (`"Yetenek"`, `"SAHIP"`) kullanma — her zaman `labels.py`'dan import et.
+`MemgraphWriter` node ve relation'ları label/type bazında gruplandırarak `UNWIND` ile yazar:
+```cypher
+UNWIND $nodes AS node
+MERGE (n:Yetenek {id: node.id})
+SET n += node.props
+```
+Her CV için iki transaction: biri tüm node'lar, biri tüm relation'lar.
 
 ---
 
@@ -190,7 +249,7 @@ Commit mesajı formatı:
 ```
 [Aşama N] Ne yapıldı
 
-Örnek:
-  [Aşama 2] Gemini extractor rate limit koruması eklendi
-  [Aşama 3] OpenAIEmbedder implementasyonu tamamlandı
+Örnekler:
+  [Aşama 4] Node2Vec runner ve reindex endpoint eklendi
+  [Aşama 4] labels.py ile string literal tutarsızlıkları giderildi
 ```

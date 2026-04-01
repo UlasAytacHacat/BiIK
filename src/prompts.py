@@ -17,9 +17,20 @@ TAMAMLADI: Aday → Sertifika (properties: yil)
 PROJEDE_YER_ALDI: Aday → Proje
 KULLANDI: Proje → Yetenek
 
+## NODE PROPERTIES ZORUNLULUKLARI
+Her node tipi için properties kesinlikle dolu olmalı. Boş {} kesinlikle kabul edilmez.
+
+- Aday      → properties: {"name": "adayın tam adı"}
+- Yetenek   → properties: {"name": "skill adı"}
+- Sirket    → properties: {"name": "şirket adı"}
+- Pozisyon  → properties: {"name": "pozisyon/unvan adı"}
+- Egitim    → properties: {"derece": "lisans/yüksek lisans/önlisans vb.", "kurum": "okul adı", "yil": "mezuniyet yılı (varsa)"}
+- Sertifika → properties: {"name": "sertifika adı", "yil": "alınış yılı (varsa)"}
+- Proje     → properties: {"name": "proje adı", "aciklama": "projenin ne yaptığı (varsa)"}
+
+ID'den isim türetilebilir: "sirket_google" → name: "Google", "pozisyon_software_engineer" → name: "Software Engineer", "sertifika_aws_cloud_practitioner" → name: "AWS Cloud Practitioner".
+
 ## KURALLAR
-- Aday node'u her zaman properties: {"name": "adayın tam adı"} içermeli.
-- Yetenek node'u her zaman properties: {"name": "skill adı"} içermeli. Boş properties kabul edilmez.
 - Yetenek ID prefix'i kesinlikle skill_ olmalı. yetenek_ prefix'i kullanılmaz.
 - Yetenek: yalnızca teknik/mesleki beceriler. Bölüm başlıkları, kişisel bilgiler, jenerik kelimeler yetenek değildir.
 - Proje.aciklama: yalnızca projenin ne yaptığı. Tarih, rol, şirket adı ekleme.
