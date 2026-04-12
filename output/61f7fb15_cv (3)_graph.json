@@ -1,0 +1,194 @@
+{
+    "entities": [
+        {
+            "id": "aday_stella_thatcher",
+            "label": "Aday",
+            "properties": {
+                "name": "Stella Thatcher"
+            }
+        },
+        {
+            "id": "yetenek_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Machine Learning"
+            }
+        },
+        {
+            "id": "yetenek_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Python"
+            }
+        },
+        {
+            "id": "yetenek_data_modeling",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Modeling"
+            }
+        },
+        {
+            "id": "yetenek_data_mining",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Mining"
+            }
+        },
+        {
+            "id": "yetenek_predictive_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Predictive Analysis"
+            }
+        },
+        {
+            "id": "yetenek_business_intelligence",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Business Intelligence"
+            }
+        },
+        {
+            "id": "yetenek_market_research",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Market Research"
+            }
+        },
+        {
+            "id": "sirket_kripa_infotech",
+            "label": "Sirket",
+            "properties": {
+                "name": "Kripa Infotech"
+            }
+        },
+        {
+            "id": "pozisyon_associate_market_research_analyst",
+            "label": "Pozisyon",
+            "properties": {
+                "name": "Associate Market Research Analyst"
+            }
+        },
+        {
+            "id": "egitim_btech_mechanical",
+            "label": "Egitim",
+            "properties": {
+                "derece": "B.Tech(Mechanical)",
+                "kurum": "Bhavleesh Duggar College",
+                "yil": "2020"
+            }
+        },
+        {
+            "id": "sertifika_certified_python_developer",
+            "label": "Sertifika",
+            "properties": {
+                "name": "Certified Python Developer",
+                "yil": null
+            }
+        },
+        {
+            "id": "proje_stock_market_analyzer",
+            "label": "Proje",
+            "properties": {
+                "aciklama": null,
+                "name": "Stock Market Analyzer"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "aday_stella_thatcher",
+            "target": "yetenek_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "yetenek_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "yetenek_data_modeling",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "yetenek_data_mining",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "yetenek_predictive_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "yetenek_business_intelligence",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "yetenek_market_research",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "sirket_kripa_infotech",
+            "type": "CALISTI",
+            "properties": {
+                "baslangic": "Apr 2020",
+                "bitis": "Sep 2020",
+                "rol": "Associate Market Research Analyst Intern"
+            }
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "pozisyon_associate_market_research_analyst",
+            "type": "POZISYONUNDA",
+            "properties": {}
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "egitim_btech_mechanical",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "B.Tech(Mechanical)",
+                "yil": "2020"
+            }
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "sertifika_certified_python_developer",
+            "type": "TAMAMLADI",
+            "properties": {
+                "yil": null
+            }
+        },
+        {
+            "source": "aday_stella_thatcher",
+            "target": "proje_stock_market_analyzer",
+            "type": "PROJEDE_YER_ALDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_stock_market_analyzer",
+            "target": "yetenek_machine_learning",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_stock_market_analyzer",
+            "target": "yetenek_python",
+            "type": "KULLANDI",
+            "properties": {}
+        }
+    ]
+}

@@ -1,0 +1,301 @@
+{
+    "entities": [
+        {
+            "id": "aday_macy_williams",
+            "label": "Aday",
+            "properties": {
+                "name": "Macy Williams"
+            }
+        },
+        {
+            "id": "yetenek_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Java"
+            }
+        },
+        {
+            "id": "yetenek_c++",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C++"
+            }
+        },
+        {
+            "id": "yetenek_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Python"
+            }
+        },
+        {
+            "id": "yetenek_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Machine Learning"
+            }
+        },
+        {
+            "id": "yetenek_algorithms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Algorithms"
+            }
+        },
+        {
+            "id": "yetenek_natural_language_processing",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Natural Language Processing"
+            }
+        },
+        {
+            "id": "yetenek_deep_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Deep Learning"
+            }
+        },
+        {
+            "id": "yetenek_computer_vision",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Computer Vision"
+            }
+        },
+        {
+            "id": "yetenek_pattern_recognition",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Pattern Recognition"
+            }
+        },
+        {
+            "id": "yetenek_data_science",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Science"
+            }
+        },
+        {
+            "id": "yetenek_data_analysis",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Analysis"
+            }
+        },
+        {
+            "id": "yetenek_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "yetenek_pyspark",
+            "label": "Yetenek",
+            "properties": {
+                "name": "PySpark"
+            }
+        },
+        {
+            "id": "yetenek_kubeflow",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Kubeflow"
+            }
+        },
+        {
+            "id": "sirket_one97_communications_limited",
+            "label": "Sirket",
+            "properties": {
+                "name": "One97 Communications Limited"
+            }
+        },
+        {
+            "id": "pozisyon_data_scientist",
+            "label": "Pozisyon",
+            "properties": {
+                "name": "Data Scientist"
+            }
+        },
+        {
+            "id": "egitim_btech_computer_science",
+            "label": "Egitim",
+            "properties": {
+                "derece": "B.Tech",
+                "kurum": "SGBAU university",
+                "yil": "2017"
+            }
+        },
+        {
+            "id": "egitim_mtech_computer_science_engineering",
+            "label": "Egitim",
+            "properties": {
+                "derece": "M.Tech",
+                "kurum": "Indian Institute of Technology (IIT), Kanpur",
+                "yil": "2019"
+            }
+        },
+        {
+            "id": "proje_customer_browsing_patterns",
+            "label": "Proje",
+            "properties": {
+                "aciklama": "Predict potential RTO(Return To Origin) orders for e-commerce",
+                "name": "Customer browsing patterns"
+            }
+        },
+        {
+            "id": "proje_object_detection",
+            "label": "Proje",
+            "properties": {
+                "aciklama": "Detect important information from images and redact required fields",
+                "name": "Object Detection"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_c++",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_algorithms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_natural_language_processing",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_deep_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_computer_vision",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_pattern_recognition",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_data_science",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_data_analysis",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_pyspark",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "yetenek_kubeflow",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "sirket_one97_communications_limited",
+            "type": "CALISTI",
+            "properties": {
+                "baslangic": "2019",
+                "bitis": "Till Date",
+                "rol": "Data Scientist"
+            }
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "pozisyon_data_scientist",
+            "type": "POZISYONUNDA",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "egitim_btech_computer_science",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "B.Tech",
+                "mezuniyet_yili": "2017"
+            }
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "egitim_mtech_computer_science_engineering",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "M.Tech",
+                "mezuniyet_yili": "2019"
+            }
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "proje_customer_browsing_patterns",
+            "type": "PROJEDE_YER_ALDI",
+            "properties": {}
+        },
+        {
+            "source": "aday_macy_williams",
+            "target": "proje_object_detection",
+            "type": "PROJEDE_YER_ALDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_customer_browsing_patterns",
+            "target": "yetenek_machine_learning",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_object_detection",
+            "target": "yetenek_computer_vision",
+            "type": "KULLANDI",
+            "properties": {}
+        }
+    ]
+}

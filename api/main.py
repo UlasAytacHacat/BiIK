@@ -8,12 +8,12 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from api.routes import candidates, convert, embed, extract, ingest, process, reindex, write
+from api.routes import candidates, convert, embed, extract, ingest, jobs, process, reindex, write
 
 load_dotenv()
 
 # ---------------------------------------------------------------------------
-# Logging — writes to logs/process.log and stdout
+# Logging
 # ---------------------------------------------------------------------------
 Path("logs").mkdir(exist_ok=True)
 logging.config.dictConfig({
@@ -38,12 +38,6 @@ logging.config.dictConfig({
 })
 
 # ---------------------------------------------------------------------------
-# Startup: gerekli klasörleri oluştur
-# ---------------------------------------------------------------------------
-for _dir in ("uploads", "data", "output"):
-    Path(_dir).mkdir(exist_ok=True)
-
-# ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
 app = FastAPI(title="BiIK API", version="1.0.0")
@@ -62,6 +56,21 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ---------------------------------------------------------------------------
+# Startup
+# ---------------------------------------------------------------------------
+
+@app.on_event("startup")
+async def startup():
+    for _dir in ("uploads", "data", "output", "logs"):
+        Path(_dir).mkdir(exist_ok=True)
+
+
+# ---------------------------------------------------------------------------
+# Router kayıtları
+# ---------------------------------------------------------------------------
+
+app.include_router(jobs.router, tags=["jobs"])          # /jobs/batch önce gelsin
 app.include_router(candidates.router, tags=["candidates"])
 app.include_router(ingest.router, tags=["ingest"])
 app.include_router(convert.router, tags=["convert"])
@@ -76,6 +85,5 @@ if __name__ == "__main__":
     import sys
     import uvicorn
 
-    # backend/ klasöründen `python api/main.py` ile çalıştırılabilmesi için
     sys.path.insert(0, str(Path(__file__).parent.parent))
     uvicorn.run("api.main:app", host="0.0.0.0", port=8000, reload=True)

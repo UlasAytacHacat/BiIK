@@ -1,0 +1,265 @@
+{
+    "entities": [
+        {
+            "id": "aday_farmen_ali",
+            "label": "Aday",
+            "properties": {
+                "name": "Farman Ali"
+            }
+        },
+        {
+            "id": "sirket_st_microelectronic",
+            "label": "Sirket",
+            "properties": {
+                "name": "ST Microelectronic"
+            }
+        },
+        {
+            "id": "sirket_cbre",
+            "label": "Sirket",
+            "properties": {
+                "name": "CBRE"
+            }
+        },
+        {
+            "id": "sirket_strabag",
+            "label": "Sirket",
+            "properties": {
+                "name": "Strabag"
+            }
+        },
+        {
+            "id": "pozisyon_bms_operator",
+            "label": "Pozisyon",
+            "properties": {
+                "name": "BMS Operator"
+            }
+        },
+        {
+            "id": "egitim_up_board_10th",
+            "label": "Egitim",
+            "properties": {
+                "derece": "10th",
+                "kurum": "UP Board",
+                "yil": null
+            }
+        },
+        {
+            "id": "egitim_up_board_102",
+            "label": "Egitim",
+            "properties": {
+                "derece": "10+2",
+                "kurum": "UP Board",
+                "yil": null
+            }
+        },
+        {
+            "id": "egitim_kanpur_university",
+            "label": "Egitim",
+            "properties": {
+                "derece": "Graduate",
+                "kurum": "Kanpur University",
+                "yil": null
+            }
+        },
+        {
+            "id": "sertifika_diploma_in_computer",
+            "label": "Sertifika",
+            "properties": {
+                "name": "Diploma in Computer",
+                "yil": null
+            }
+        },
+        {
+            "id": "proje_metlife_global_operation_support",
+            "label": "Proje",
+            "properties": {
+                "aciklama": null,
+                "name": "MetLife Global Operation Support"
+            }
+        },
+        {
+            "id": "yetenek_microsoft_office",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Microsoft Office"
+            }
+        },
+        {
+            "id": "yetenek_honeywell_system",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Honeywell System"
+            }
+        },
+        {
+            "id": "yetenek_fire_alarm_system",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Fire Alarm System"
+            }
+        },
+        {
+            "id": "yetenek_access_control_system",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Access Control System"
+            }
+        },
+        {
+            "id": "yetenek_cctv_camera",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CCTV Camera"
+            }
+        },
+        {
+            "id": "yetenek_water_sprinkler_system",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Water Sprinkler System"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "aday_farmen_ali",
+            "target": "sirket_st_microelectronic",
+            "type": "CALISTI",
+            "properties": {
+                "baslangic": null,
+                "bitis": null,
+                "rol": "BMS Operator"
+            }
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "sirket_cbre",
+            "type": "CALISTI",
+            "properties": {
+                "baslangic": "01st January 2016",
+                "bitis": null,
+                "rol": "BMS Operator"
+            }
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "pozisyon_bms_operator",
+            "type": "POZISYONUNDA",
+            "properties": {}
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "egitim_up_board_10th",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "10th",
+                "mezuniyet_yili": null
+            }
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "egitim_up_board_102",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "10+2",
+                "mezuniyet_yili": null
+            }
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "egitim_kanpur_university",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "Graduate",
+                "mezuniyet_yili": null
+            }
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "sertifika_diploma_in_computer",
+            "type": "TAMAMLADI",
+            "properties": {
+                "yil": null
+            }
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "proje_metlife_global_operation_support",
+            "type": "PROJEDE_YER_ALDI",
+            "properties": {}
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "yetenek_microsoft_office",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "yetenek_honeywell_system",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "yetenek_fire_alarm_system",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "yetenek_access_control_system",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "yetenek_cctv_camera",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_farmen_ali",
+            "target": "yetenek_water_sprinkler_system",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "proje_metlife_global_operation_support",
+            "target": "yetenek_microsoft_office",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_metlife_global_operation_support",
+            "target": "yetenek_honeywell_system",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_metlife_global_operation_support",
+            "target": "yetenek_fire_alarm_system",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_metlife_global_operation_support",
+            "target": "yetenek_access_control_system",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_metlife_global_operation_support",
+            "target": "yetenek_cctv_camera",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_metlife_global_operation_support",
+            "target": "yetenek_water_sprinkler_system",
+            "type": "KULLANDI",
+            "properties": {}
+        }
+    ]
+}

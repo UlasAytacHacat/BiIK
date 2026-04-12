@@ -1,0 +1,164 @@
+{
+    "entities": [
+        {
+            "id": "aday_md_ne yaz",
+            "label": "Aday",
+            "properties": {
+                "name": "MD NEYAZ"
+            }
+        },
+        {
+            "id": "yetenek_windows_8_1",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Windows 8.1"
+            }
+        },
+        {
+            "id": "yetenek_html",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HTML"
+            }
+        },
+        {
+            "id": "yetenek_ms_office_2010",
+            "label": "Yetenek",
+            "properties": {
+                "name": "MS-OFFICE 2010"
+            }
+        },
+        {
+            "id": "yetenek_internet",
+            "label": "Yetenek",
+            "properties": {
+                "name": "INTERNET"
+            }
+        },
+        {
+            "id": "yetenek_e_mail",
+            "label": "Yetenek",
+            "properties": {
+                "name": "E-MAIL"
+            }
+        },
+        {
+            "id": "sirket_dhruv_infratech_pvt_ltd",
+            "label": "Sirket",
+            "properties": {
+                "name": "DHRUV INFRATECH PVT.LTD"
+            }
+        },
+        {
+            "id": "pozisyon_maintenance_diploma_electrical_engineer",
+            "label": "Pozisyon",
+            "properties": {
+                "name": "Maintenance Diploma Electrical Engineer"
+            }
+        },
+        {
+            "id": "egitim_10th_from_b_s_e_b_patna",
+            "label": "Egitim",
+            "properties": {
+                "derece": "10th",
+                "kurum": "B.S.E.B PATNA",
+                "yil": null
+            }
+        },
+        {
+            "id": "egitim_diploma_electrical_engineering_from_h_s_b_t_e_board",
+            "label": "Egitim",
+            "properties": {
+                "derece": "DIPLOMA",
+                "kurum": "H.S.B.T.E BOARD",
+                "yil": null
+            }
+        },
+        {
+            "id": "proje_production_line",
+            "label": "Proje",
+            "properties": {
+                "aciklama": null,
+                "name": "Production Line"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "aday_md_ne yaz",
+            "target": "yetenek_windows_8_1",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "yetenek_html",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "yetenek_ms_office_2010",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "yetenek_internet",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "yetenek_e_mail",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "sirket_dhruv_infratech_pvt_ltd",
+            "type": "CALISTI",
+            "properties": {
+                "baslangic": null,
+                "bitis": null,
+                "rol": "Maintenance Diploma Electrical Engineer"
+            }
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "pozisyon_maintenance_diploma_electrical_engineer",
+            "type": "POZISYONUNDA",
+            "properties": {}
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "egitim_10th_from_b_s_e_b_patna",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "10th",
+                "mezuniyet_yili": null
+            }
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "egitim_diploma_electrical_engineering_from_h_s_b_t_e_board",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "DIPLOMA",
+                "mezuniyet_yili": null
+            }
+        },
+        {
+            "source": "aday_md_ne yaz",
+            "target": "proje_production_line",
+            "type": "PROJEDE_YER_ALDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_production_line",
+            "target": "yetenek_windows_8_1",
+            "type": "KULLANDI",
+            "properties": {}
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+{
+    "entities": [
+        {
+            "id": "aday_keisuke_yamamoto",
+            "label": "Aday",
+            "properties": {
+                "name": "KEISUKE YAMAMOTO"
+            }
+        },
+        {
+            "id": "yetenek_web_developer",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Web Developer"
+            }
+        },
+        {
+            "id": "yetenek_data_analyst",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Analyst"
+            }
+        },
+        {
+            "id": "yetenek_machine_learning",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Machine Learning"
+            }
+        },
+        {
+            "id": "yetenek_python",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Python"
+            }
+        },
+        {
+            "id": "yetenek_frontend",
+            "label": "Yetenek",
+            "properties": {
+                "name": "FrontEnd"
+            }
+        },
+        {
+            "id": "yetenek_html",
+            "label": "Yetenek",
+            "properties": {
+                "name": "HTML"
+            }
+        },
+        {
+            "id": "yetenek_javascript",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Javascript"
+            }
+        },
+        {
+            "id": "yetenek_php",
+            "label": "Yetenek",
+            "properties": {
+                "name": "PHP"
+            }
+        },
+        {
+            "id": "yetenek_css",
+            "label": "Yetenek",
+            "properties": {
+                "name": "CSS"
+            }
+        },
+        {
+            "id": "yetenek_mysql",
+            "label": "Yetenek",
+            "properties": {
+                "name": "MySQL"
+            }
+        },
+        {
+            "id": "yetenek_java",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Java"
+            }
+        },
+        {
+            "id": "yetenek_data_structures",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Data Structures"
+            }
+        },
+        {
+            "id": "yetenek_oop",
+            "label": "Yetenek",
+            "properties": {
+                "name": "OOP"
+            }
+        },
+        {
+            "id": "yetenek_algorithms",
+            "label": "Yetenek",
+            "properties": {
+                "name": "Algorithms"
+            }
+        },
+        {
+            "id": "yetenek_c",
+            "label": "Yetenek",
+            "properties": {
+                "name": "C"
+            }
+        },
+        {
+            "id": "sirket_sai_technologies",
+            "label": "Sirket",
+            "properties": {
+                "name": "SAI Technologies"
+            }
+        },
+        {
+            "id": "pozisyon_intern",
+            "label": "Pozisyon",
+            "properties": {
+                "name": "Intern"
+            }
+        },
+        {
+            "id": "egitim_btech_computers",
+            "label": "Egitim",
+            "properties": {
+                "derece": "B.Tech",
+                "kurum": "Shri Guru Gobind Singhji College of Engineering and Technology, Nanded",
+                "yil": "2019"
+            }
+        },
+        {
+            "id": "proje_character_detection",
+            "label": "Proje",
+            "properties": {
+                "aciklama": "Character detection using SVM classification",
+                "name": "Character Detection using SVM Classification"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_web_developer",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_data_analyst",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_machine_learning",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_python",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_frontend",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_html",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_javascript",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_php",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_css",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_mysql",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_java",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_data_structures",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_oop",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_algorithms",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "yetenek_c",
+            "type": "SAHIP",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "sirket_sai_technologies",
+            "type": "CALISTI",
+            "properties": {
+                "baslangic": "Aug 2020",
+                "bitis": "Till Date",
+                "rol": "Intern"
+            }
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "pozisyon_intern",
+            "type": "POZISYONUNDA",
+            "properties": {}
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "egitim_btech_computers",
+            "type": "MEZUN",
+            "properties": {
+                "derece": "B.Tech",
+                "mezuniyet_yili": "2019"
+            }
+        },
+        {
+            "source": "aday_keisuke_yamamoto",
+            "target": "proje_character_detection",
+            "type": "PROJEDE_YER_ALDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_character_detection",
+            "target": "yetenek_python",
+            "type": "KULLANDI",
+            "properties": {}
+        },
+        {
+            "source": "proje_character_detection",
+            "target": "yetenek_machine_learning",
+            "type": "KULLANDI",
+            "properties": {}
+        }
+    ]
+}
